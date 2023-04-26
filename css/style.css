@@ -1,0 +1,622 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+@font-face {
+    font-family: "Kindergarden";
+    src: url(../fonts/kindergarten.ttf);
+
+    font-family: "School";
+    src: url(../fonts/Schoolbell-Regular.ttf);
+
+    font-family: "Glook";
+    src: url(../fonts/Gloock-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /*list-style-type: none;*/
+}
+
+::selection
+{background-color: rgb(201, 201, 201);}
+
+.Encabezado {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+
+.EncabezadoIndex
+{    display:flex;
+    justify-content: space-between}
+
+.logoBruta {width: 20%;}
+
+
+
+
+.NavBar li 
+{
+    font-family: "Glook", serif;
+    font-size: 14px;
+    /* margin-left: 20px; */
+    display: inline-block;
+    border: 16px;
+    margin: 16px;
+    margin-top: 80px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right center; 
+    background-color: white;
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Menu__hamburguesa
+{display: none;}
+
+.nav-link
+{text-align: right;}
+
+.navbar-toggler
+{justify-content: end;}
+
+a
+{color: black;
+text-decoration: none;}
+
+
+.menu_item , #menu__item
+{   text-decoration: none;
+    list-style-type: none;
+color: black;}
+
+/* .menu_item.active , .menu_item,.active .menu_item.active a:hover   .menu_item.active a:hover, .menu_item,.active a:hover */
+
+
+
+.menu_item a:hover , .menu_item.active , .menu_item .active , .menu_item_active
+{color: rgb(95, 95, 95);
+text-decoration: underline} 
+
+/*.menu_item:hover , .menu_item:active
+{color:blue}*/
+
+.menu_item:active , .menu_item a:active
+{color: rgb(2, 3, 15);
+    text-decoration: underline} 
+
+
+
+    .nav-item
+    {
+        font-family: "Glook", serif;
+        font-size: 14px;
+        /* margin-left: 20px; */
+        display: inline-block;
+        border: 16px;
+        margin: 16px;
+        margin-block: 30px;
+        margin-top: 80px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        text-decoration: none;
+        list-style-type: none;
+      
+    }
+
+
+   .container-fluid , .navbar 
+   {background-color: white;
+padding: 0;
+display: flex;}
+
+
+/* body
+{padding: 2rem;} */
+
+h2
+{font-family: "Glook";
+font-size:26px;
+font-weight: lighter;
+margin-left: 16px;
+margin-block: 20px;
+margin: 6px;
+padding-block: 40px;
+}
+
+h3
+{font-family: "Glook";
+font-size:26px;
+font-weight: lighter;
+margin-left: 16px;
+margin-block: 20px;
+margin: 6px;
+padding-block: 15px;
+}
+
+
+
+
+
+.accordion__text
+{font-family: "Glook";
+    font-size:13px;}
+
+
+input
+{margin: 5px;
+padding: 1px;}
+
+
+
+
+
+p { text-align: justify;
+    font-family: "Glook";
+    font-size: 18px;
+    margin-left: 6px;
+    padding-block: 8px;}
+
+.ParrafoIndex
+{ text-align: justify;
+    font-family: "Glook";
+    font-size: 24px;
+    margin-left: 6px;
+    padding-block: 8px;}
+
+    
+.p2 {font-size: 18px;
+    margin-block: 15px}
+
+.p2.p4
+
+{margin-top: 50px;}
+
+.p3, .ListaServicios
+ {font-family: "Glook";
+font-size: 16px;
+margin-block: 15px;
+list-style-type:circle;
+}
+
+.p5 {font-size: 18px;}
+
+.p2.p6
+{margin-block: 5px}
+
+
+i
+{margin-inline: 0.5rem;}
+
+
+
+/*CONTACTO*/
+
+
+.PáginaContacto {
+    font-family: "Glook", serif ;
+    font-size: 20px;}
+
+.FormularioContacto
+{/*display:Flex;*/
+background-color: #F2F1FA;
+width: 40%;
+padding: 50px;
+font-family: "Glook";
+font-size: 12px;
+justify-content:flex-start;
+align-items: center}
+
+
+.Ingresacorreo , .Ingresatunombre , .Dejatuconsulta
+{width: 100%;}
+
+#Dejanostuconsulta , .SelectorConsulta
+
+{font-family: "Glook";}
+
+
+.DivFormularioContacto
+
+{display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 10px;}
+
+.CajitaBotonEnviar
+{display:flex;
+    align-items: center;
+justify-content: center;}
+
+input
+{font-family: "Glook";
+    font-size: 14px;
+    /*padding: 5px;*/
+}
+
+.BotonEnviar
+{padding: 10px;
+background-color: black;
+color: white;}
+
+.BotonSend
+
+{background-color: black;
+color: white;
+text-decoration: underline;
+margin: 10px;
+font-family: "Schoolbell";}
+
+
+.PortfolioFoto
+{margin-left: 10%;}
+
+
+
+.MainContacto
+
+{display: flex;
+justify-content: space-around;
+padding-left: 5%;}
+
+
+.MainContacto2
+
+{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+padding-left: 5%;}
+
+
+/*.GrillaContacto
+
+{display: grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: 1fr;
+margin-left: 20%;
+margin-right: 20%;
+grid-template-areas:
+    "h2Contacto FormularioContacto"
+    "MainContacto FormularioContacto"
+    "MainContacto2 FormularioContacto"
+    "MainContacto2 FormularioContacto";
+grid-column-gap: 5%;}
+
+
+.h2Contacto
+{grid-area: h2Contacto;}
+
+
+.MainContactop
+{grid-area: MainContacto;}
+
+.FormularioContacto
+{grid-area: FormularioContacto;}
+
+.MainContacto2
+{grid-area: MainContacto2;} */
+
+
+/**************************SERVICIOS*******************************************/
+/**************************SERVICIOS*******************************************/
+/**************************SERVICIOS*******************************************/
+
+
+.GrillaServicios
+
+{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-rows: 0,5fr;
+margin-left: 10%;
+margin-right: 10%;
+grid-template-areas:
+    "Servicios ServiciosFoto ServiciosFoto"
+    "p2 ServiciosFoto ServiciosFoto"
+    "ListaServicios ServiciosFoto ServiciosFoto";
+grid-column-gap: 10%;
+grid-row-gap: 0;}
+
+.ListaServicios
+{grid-area: ListaServicios;
+list-style-type:disc;
+margin-inline: 15px}
+
+
+.Servicios
+{grid-area: Servicios;}
+
+.ServiciosFoto , .ServiciosPic
+{grid-area: ServiciosFoto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+/*justify-items: center;*/
+align-items: center;
+align-content: center;
+justify-self: center;
+align-self: center;}
+
+.ServiciosPic
+{margin-top: 80px;}
+
+
+.p2
+{grid-area: p2;}
+
+/**************************QUIENESSOMOS*******************************************/
+/**************************QUIENESSOMOS*******************************************/
+/**************************QUIENESSOMOS*******************************************/
+
+
+.QuienesSomosH2
+
+{padding-bottom: 20px;
+padding-top: 60px;}
+
+
+.GrillaQuienesSomos
+
+{display: grid;
+padding-top: 4vh;
+grid-template-columns: 1fr 1fr ;
+grid-auto-rows: 0.5fr;
+height: 20%;
+margin-left: 20%;
+margin-right: 20%;
+grid-template-areas:
+    "QuienesSomosTitulo QuienesSomosPic"
+    "QuienesSomosp1 QuienesSomosPic"
+    "QuienesSomosp2 QuienesSomosPic"
+    "QuienesSomosp3 QuienesSomosPic"
+    "QuienesSomosp4 QuienesSomosPic";
+grid-column-gap: 5%;
+justify-content: center;
+justify-items: stretch;
+}
+
+.QuienesSomosTitulo
+{grid-area: QuienesSomosTitulo;
+margin-bottom: 20px;}
+
+.QuienesSomosp1
+{grid-area: QuienesSomosp1;}
+
+.QuienesSomosp2
+{grid-area: QuienesSomosp2;}
+
+.QuienesSomosp3
+{grid-area: QuienesSomosp3;}
+
+.QuienesSomosp4
+{grid-area: QuienesSomosp4;}
+
+
+.QuienesSomosPic
+{grid-area: QuienesSomosPic;
+justify-items: strech;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+/*justify-items: center;
+align-items: center;*/
+align-content:center;
+justify-self: center;
+align-self: center;}
+
+.Edificio2
+    {grid-area: QuienesSomosPic;
+    justify-items: strech;}
+
+
+/**************************FOOTER*******************************************/
+/**************************FOOTER*******************************************/
+/**************************FOOTER*******************************************/
+
+
+.Footer { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-between;
+    background-color: black;
+    color: white;
+    /*background-image: url(../img/ShulsBanner1280.jpg)*/;
+    font-family:"Schoolbell", cursive;
+    font-size: 12px;
+    font-weight: lighter ;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+
+}
+
+.Mail
+{background-color: black;
+color: white;
+font-family: "Schoolbell", monospace;
+font-size: 12px;
+font-weight: bolder;
+border: none;
+border-bottom: 2px solid white;
+display: flex;
+justify-content: center;
+align-items: baseline;}
+
+.CajitaMail
+{display: flex;
+justify-content: center;
+align-items: baseline;}
+
+.FooterNewsletter , .FooterInfoContacto
+{display: flex;
+    flex-direction: column;
+margin-top: 10px;
+margin: 10px;}
+
+.FooterBotonEnviarMail
+
+{display: flex;
+    flex-direction: row;
+align-items: center;}
+
+
+.Ingresatunombre , .Ingresatucorreo , .Dejanostuconsulta , .ObjetoConsulta
+
+{width: 100%;
+align-items: center;
+}
+
+.Dejanostuconsulta , .ObjetoConsulta
+{padding: 5px;
+margin: 5px;}
+
+
+.BrutaEstiloLogo {
+    display:flex;
+    font-family: "Glook", serif ;
+    font-size: 26px;
+    font-weight: bold;
+    border: 20px;
+    padding: 20px;
+    color: white;
+    justify-content: flex-end;
+}
+
+.Casilla__footer , .Ig__footer
+
+{display: flex;
+    justify-content: flex-end}
+
+
+/*.Casilla__footer::after 
+{}*/
+
+
+
+.h4
+{font-family: "Glook";
+    font-size:16px;
+    font-weight: lighter;
+    margin-left: 16px;
+    margin-block: 20px;
+    margin: 6px;
+    padding-block: 15px;
+}
+
+
+
+
+
+/**********************************MEDIA QUERIES******************************/
+
+
+
+@media (max-width: 890px) {
+    .NavBar li {
+        font-size: 12px;
+        margin-right: 2px;
+        border-right: 2px;
+        justify-content: center;
+        align-items: center;
+}
+
+.carousel-inner
+{width: 100vw;}
+}
+
+@media (max-width: 768px) {
+    .NavBar li {
+        font-size: 10px;
+        /* margin-left: 20px; */
+        display: inline-block;
+        border: 8px;
+        margin: 8px;
+        margin-right: 5px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .NavBar {
+margin-right: 40px;
+    }
+
+    h2 {font-family: "Glook";
+        font-size: 18px;
+    padding-block: 20px;
+}
+
+
+    .ParrafoIndex {
+        font-size: 16px;
+    margin-bottom: 12px;}
+
+    h4
+    {font-size: 12px;}
+
+    .BrutaEstiloLogo
+    {padding: 10px;
+    font-size: 22px;}
+
+}
+
+@media (max-width: 576px) {
+    .NavBar {
+        font-size: 10px;
+        margin-right: 20px;
+        border-right: none;
+        display: none;
+    }
+
+    .ParrafoIndex {
+        font-size: 12px;
+    margin-bottom: 2px;}
+
+    h2 {font-family: "Glook";
+        font-size: 16px;
+        padding-block: 10px;
+
+        }
+
+        
+    .Menu__hamburguesa
+    {display:block;
+        color: black;
+        visibility: visible;
+    }
+
+    .nav-item {
+        margin-block: 4px;
+        font-size: 10px;
+    }
+
+    .Footer
+    {margin-top: 20px;}
+  
+}
