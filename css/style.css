@@ -583,6 +583,27 @@ margin-right: 40px;
     .BrutaEstiloLogo
     {padding: 10px;
     font-size: 22px;}
+    .GrillaServicios
+
+    {display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 0,5fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-areas:
+        "Servicios"
+        "p2"
+        "ListaServicios"
+        "ServiciosFoto" ;
+    grid-column-gap: 10%;
+    grid-row-gap: 0;}
+
+    h3
+    {padding-block: 2px;
+    margin: 1px;}
+    
+.ServiciosPic {
+    margin-top: 30px;
 
 }
 
