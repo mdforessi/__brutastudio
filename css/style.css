@@ -529,8 +529,8 @@ margin: 5px;}
 
 
 
-
-
+/**********************************MEDIA QUERIES******************************/
+/**********************************MEDIA QUERIES******************************/
 /**********************************MEDIA QUERIES******************************/
 
 
@@ -548,6 +548,8 @@ margin: 5px;}
 {width: 100vw;}
 }
 
+
+
 @media (max-width: 768px) {
     .NavBar li {
         font-size: 10px;
@@ -556,6 +558,7 @@ margin: 5px;}
         border: 8px;
         margin: 8px;
         margin-right: 5px;
+        margin-top: 40px;
         color: black;
         justify-content: center;
         align-items: center;
@@ -607,6 +610,7 @@ margin-right: 40px;
 
 }
 
+
 @media (max-width: 576px) {
     .NavBar {
         font-size: 10px;
@@ -631,6 +635,15 @@ margin-right: 40px;
         color: black;
         visibility: visible;
     }
+
+    .container-fluid
+{flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-start;}
+ 
+
 
     .nav-item {
         margin-block: 4px;
