@@ -643,7 +643,8 @@ margin-right: 40px;
     align-content: center;
     justify-content: flex-start;}
  
-
+.navbar-toggler
+{margin-top: 10px;}
 
     .nav-item {
         margin-block: 4px;
