@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+@font-face {
+    font-family: "Kindergarden";
+    src: url(../fonts/kindergarten.ttf);
+
+    font-family: "School";
+    src: url(../fonts/Schoolbell-Regular.ttf);
+
+    font-family: "Glook";
+    src: url(../fonts/Gloock-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+::selection
+{background-color: rgb(201, 201, 201);}

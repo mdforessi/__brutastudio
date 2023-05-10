@@ -38,7 +38,11 @@
 .logoBruta {width: 20%;}
 
 
+.carousel-inner
+{flex-grow: 1;}
 
+.row 
+{margin-right: 0;}
 
 .NavBar li 
 {
@@ -501,7 +505,8 @@ margin: 5px;}
     font-size: 26px;
     font-weight: bold;
     border: 20px;
-    padding: 20px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
     color: white;
     justify-content: flex-end;
 }
@@ -584,7 +589,8 @@ margin-right: 40px;
     {font-size: 12px;}
 
     .BrutaEstiloLogo
-    {padding: 10px;
+    {padding-inline: 10px;
+    padding-bottom: 10px;
     font-size: 22px;}
     .GrillaServicios
 
@@ -611,7 +617,8 @@ margin-right: 40px;
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 576px) 
+{
     .NavBar {
         font-size: 10px;
         margin-right: 20px;
@@ -641,7 +648,8 @@ margin-right: 40px;
     align-items: center;
     flex-direction: row-reverse;
     align-content: center;
-    justify-content: flex-start;}
+    justify-content: flex-start;
+    padding-right: 20%;}
  
 .navbar-toggler
 {margin-top: 10px;}
@@ -674,6 +682,24 @@ margin-right: 40px;
     margin: 1px;}
     
 .ServiciosPic {
-    margin-top: 30px;
+    margin-top: 30px;} 
 }
+}
+
+@media (max-width: 576px) 
+{
+    .logoBruta 
+    {width: 30%;}
+
+    .Ig__footer , .Casilla__footer
+    {visibility:hidden;}
+
+    .bi-instagram , .bi-envelope
+    {visibility: visible;
+    font-size: larger;}
+
+    .BrutaEstiloLogo
+    {font-size: 18px;
+    padding-bottom: 1px;
+padding-right: 1px;}
 }
