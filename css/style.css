@@ -227,7 +227,8 @@ i
 
 .FormularioContacto
 {/*display:Flex;*/
-background-color: #F2F1FA;
+/*background-color: #F2F1FA;*/
+background-image: linear-gradient(to top, rgb(213, 216, 216),#F2F1FA ); 
 width: 40%;
 padding: 50px;
 font-family: "Glook";
@@ -386,7 +387,7 @@ padding-top: 60px;}
 
 {display: grid;
 padding-top: 4vh;
-grid-template-columns: 1fr 1fr ;
+grid-template-columns: 1fr 1fr;
 grid-auto-rows: 0.5fr;
 height: 20%;
 margin-left: 20%;
@@ -436,6 +437,66 @@ align-self: center;}
     justify-items: strech;}
 
 
+
+/**************************PORTFOLIO*******************************************/
+
+
+
+.GrillaPortfolio
+    {display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "Portfolio1 Portfolio2 Portfolio3 Portfolio4"
+            "Portfolio5 Portfolio6 Portfolio7 Portfolio8";
+            justify-content: center;
+justify-items: stretch;
+        }
+
+
+.Portfolio1
+{grid-area: Portfolio1;
+ /*   object-fit: fill;
+height: auto;*/
+justify-items: strech;
+object-fit: cover;
+transition: 1s;
+}
+
+.Portfolio2
+{grid-area: Portfolio2;
+    justify-items: strech;
+    object-fit: cover;
+    transition: 1s;}
+.Portfolio3
+{grid-area: Portfolio3;
+ transition: 1s;}
+
+.Portfolio4
+{grid-area: Portfolio4;
+    transition: 1s;}
+.Portfolio5
+{grid-area: Portfolio5;
+    transition: 1s;}
+.Portfolio6
+{grid-area: Portfolio6;
+    transition: 1s;}
+.Portfolio7
+{grid-area: Portfolio7;
+    transition: 1s;}
+.Portfolio8
+{grid-area: Portfolio8;
+    transition: 1s;}
+
+.portfolio__foto
+{flex-grow: 0;
+flex-shrink: 1;
+flex-basis: 100%;
+flex: 1;}
+
+.Portfolio1:hover , .Portfolio2:hover, .Portfolio3:hover, .Portfolio4:hover, .Portfolio5:hover, .Portfolio6:hover, .Portfolio7:hover, .Portfolio8:hover
+{transform: scale(1.1);}
+
 /**************************FOOTER*******************************************/
 /**************************FOOTER*******************************************/
 /**************************FOOTER*******************************************/
@@ -443,6 +504,8 @@ align-self: center;}
 
 .Footer { 
     display: flex;
+    bottom: 0;
+    width: 100vw;
     flex-wrap: wrap;
     flex-direction: row;
    justify-content: space-between;
@@ -617,6 +680,13 @@ margin-right: 40px;
 }
 
 
+.p5
+{font-size: 14px;
+margin-bottom: 6px;}
+
+}
+
+
 @media (max-width: 576px) 
 {
     .NavBar {
@@ -683,8 +753,29 @@ margin-right: 40px;
     
 .ServiciosPic {
     margin-top: 30px;} 
+
+    .GrillaQuienesSomos
+    {   display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 0.1fr;
+        grid-template-areas:
+        "QuienesSomosTitulo"
+        "QuienesSomosp1"
+        "QuienesSomosp2"
+        "QuienesSomosp3"
+        "QuienesSomosp4"
+        "QuienesSomosPic";
+        grid-column-gap: 10%;
+        grid-row-gap: 0;}
+
+        .QuienesSomosH2
+        {padding-block: 10px;}
+
+        .QuienesSomosp4
+        {margin-bottom: 20px;}
+
 }
-}
+
 
 @media (max-width: 576px) 
 {
