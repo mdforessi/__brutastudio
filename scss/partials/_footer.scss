@@ -1,0 +1,80 @@
+
+.row__footer
+{position: relative;
+    bottom: 0vw;}
+
+.Footer { 
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family:"Schoolbell", cursive;
+    font-size: 12px;
+    font-weight: lighter ;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+    .FooterNewsletter , .FooterInfoContacto
+{display: flex;
+    flex-direction: column;
+margin-top: 10px;
+margin: 10px;
+
+
+.Casilla__footer , .Ig__footer
+
+{display: flex;
+    justify-content: flex-end}
+
+
+.BrutaEstiloLogo {
+    display:flex;
+    font-family: "Glook", serif ;
+    font-size: 26px;
+    font-weight: bold;
+    border: 20px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    color: white;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.FooterBotonEnviarMail
+
+{display: flex;
+    flex-direction: row;
+align-items: center;
+
+.CajitaMail
+{display: flex;
+justify-content: center;
+align-items: baseline;
+
+.Mail
+{background-color: black;
+color: white;
+font-family: "Schoolbell", monospace;
+font-size: 12px;
+font-weight: bolder;
+border: none;
+border-bottom: 2px solid white;
+display: flex;
+justify-content: center;
+align-items: baseline;}
+}
+
+}
+
+}
+
+
+}
+
+
+
+
