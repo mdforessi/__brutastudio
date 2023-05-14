@@ -252,6 +252,9 @@ flex-direction: column;
 justify-content: center;
 gap: 10px;}
 
+
+
+
 .CajitaBotonEnviar
 {display:flex;
     align-items: center;
@@ -393,6 +396,8 @@ align-self: center;}
 {margin-top: 80px;}
 
 
+  
+
 .p2
 {grid-area: p2;}
 
@@ -454,7 +459,33 @@ justify-content: center;
 align-items: center;*/
 align-content:center;
 justify-self: center;
-align-self: center;}
+align-self: center;
+animation-name: slide-right;
+-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+
+
+
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+    }
+    100% {
+      -webkit-transform: translateX(1px);
+              transform: translateX(1px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+    }
+    100% {
+      -webkit-transform: translateX(1px);
+              transform: translateX(1px);
+    }
+  }
 
 .Edificio2
     {grid-area: QuienesSomosPic;
@@ -600,6 +631,7 @@ margin: 5px;}
     padding-bottom: 20px;
     color: white;
     justify-content: flex-end;
+    text-align: end;
 }
 
 .Casilla__footer , .Ig__footer
