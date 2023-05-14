@@ -42,7 +42,8 @@
 {flex-grow: 1;}
 
 .row 
-{margin-right: 0;}
+{margin-right: 0;
+width: 100vw;}
 
 .NavBar li 
 {
@@ -353,6 +354,16 @@ padding-left: 5%;}
     justify-content: space-evenly;} 
 
 
+    .Ingresatunombre , .Ingresatucorreo , .Dejanostuconsulta , .ObjetoConsulta
+
+{width: 100%;
+align-items: center;
+}
+
+.Dejanostuconsulta , .ObjetoConsulta
+{padding: 5px;
+margin: 5px;}
+
 /**************************SERVICIOS*******************************************/
 /**************************SERVICIOS*******************************************/
 /**************************SERVICIOS*******************************************/
@@ -460,32 +471,23 @@ align-items: center;*/
 align-content:center;
 justify-self: center;
 align-self: center;
-animation-name: slide-right;
--webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+animation-name: slide-top;
+-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
 
 
 
-@-webkit-keyframes slide-right {
+@-webkit-keyframes slide-top {
     0% {
-      -webkit-transform: translateX(-50px);
-              transform: translateX(-50px);
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
     }
     100% {
-      -webkit-transform: translateX(1px);
-              transform: translateX(1px);
+      -webkit-transform: translateY(1px);
+              transform: translateY(1px);
     }
   }
-  @keyframes slide-right {
-    0% {
-      -webkit-transform: translateX(-50px);
-              transform: translateX(-50px);
-    }
-    100% {
-      -webkit-transform: translateX(1px);
-              transform: translateX(1px);
-    }
-  }
+
 
 .Edificio2
     {grid-area: QuienesSomosPic;
@@ -515,14 +517,14 @@ justify-items: stretch;
 height: auto;*/
 justify-items: strech;
 object-fit: cover;
-transition: 1s;
-}
+transition: 1s;}
 
 .Portfolio2
 {grid-area: Portfolio2;
     justify-items: strech;
     object-fit: cover;
     transition: 1s;}
+
 .Portfolio3
 {grid-area: Portfolio3;
  transition: 1s;}
@@ -530,6 +532,7 @@ transition: 1s;
 .Portfolio4
 {grid-area: Portfolio4;
     transition: 1s;}
+
 .Portfolio5
 {grid-area: Portfolio5;
     transition: 1s;}
@@ -551,6 +554,7 @@ flex: 1;}
 
 .Portfolio1:hover , .Portfolio2:hover, .Portfolio3:hover, .Portfolio4:hover, .Portfolio5:hover, .Portfolio6:hover, .Portfolio7:hover, .Portfolio8:hover
 {transform: scale(1.1);}
+
 
 /**************************FOOTER*******************************************/
 /**************************FOOTER*******************************************/
@@ -610,15 +614,7 @@ margin: 10px;}
 align-items: center;}
 
 
-.Ingresatunombre , .Ingresatucorreo , .Dejanostuconsulta , .ObjetoConsulta
 
-{width: 100%;
-align-items: center;
-}
-
-.Dejanostuconsulta , .ObjetoConsulta
-{padding: 5px;
-margin: 5px;}
 
 
 .BrutaEstiloLogo {
@@ -839,6 +835,11 @@ margin-bottom: 6px;}
 
 @media (max-width: 576px) 
 {
+
+    body{margin: 0;
+    width: 100% !important;}
+
+
     .logoBruta 
     {width: 30%;}
 
@@ -852,7 +853,8 @@ margin-bottom: 6px;}
     .BrutaEstiloLogo
     {font-size: 18px;
     padding-bottom: 1px;
-padding-right: 1px;}
+padding-right: 1px;
+margin-bottom: 10px;}
 }
 
  

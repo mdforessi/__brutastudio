@@ -190,16 +190,17 @@ margin-bottom: 6px;}
 
 
 
-@media (max-width: 576px) 
-{
+@media (max-width: 576px) {
+
+    body{margin: 0;
+        width: 100% !important;}
+    
+    
     .logoBruta 
     {width: 30%;}
 
+    .Footer {
 
-    .Footer
-    {
-
-        
     .Ig__footer , .Casilla__footer
     {visibility:hidden;}
 
@@ -210,7 +211,8 @@ margin-bottom: 6px;}
     .BrutaEstiloLogo
     {font-size: 18px;
     padding-bottom: 1px;
-padding-right: 1px;}
+padding-right: 1px;
+margin-bottom: 10px;}
 
 
     }
