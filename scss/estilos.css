@@ -561,7 +561,7 @@ i {
 }
 
 @media (max-width: 890px) {
-  .Encabezado .NavBar li {
+  .Encabezado .NavBar .menu_item {
     font-size: 12px;
     margin-right: 2px;
     border-right: 2px;
