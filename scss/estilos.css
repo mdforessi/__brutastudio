@@ -35,6 +35,7 @@ h2, .h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
 .row {
   margin-right: 0;
   width: 100vw;
+  --bs-gutter-x: 0;
 }
 
 a {
