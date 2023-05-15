@@ -55,13 +55,14 @@
 
     .Menu__hamburguesa {
         display: none;
+        padding-bottom: 5%;
+}
 
         .container-fluid,
         .navbar {
             background-color: white;
             padding: 0;
             display: flex;
-            padding-top: 20px;
 
             .navbar-toggler {
                 justify-content: end;
@@ -107,7 +108,7 @@
 
         }
 
-    }
+
 
 
 
