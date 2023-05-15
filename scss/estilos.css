@@ -635,15 +635,22 @@ i {
   .GrillaServicios .ServiciosPic, .GrillaServicios .ServiciosPic .ServiciosFoto {
     margin-top: 30px;
   }
+  .MainContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .MainContacto .FormularioContacto {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
-  .Encabezado .NavBar, .Encabezado .navbar {
+  .Encabezado .NavBar {
     font-size: 10px;
     margin-right: 20px;
     border-right: none;
     display: none;
   }
-  .Encabezado .NavBar .nav-item, .Encabezado .navbar .nav-item {
+  .Encabezado .NavBar .nav-item {
     margin-block: 4px;
     font-size: 10px;
   }
@@ -706,13 +713,6 @@ i {
   }
   .GrillaQuienesSomos .QuienesSomosp4 {
     margin-bottom: 20px;
-  }
-  .MainContacto {
-    display: flex;
-    flex-direction: column;
-  }
-  .MainContacto .FormularioContacto {
-    width: 100%;
   }
   .Footer {
     margin-top: 20px;

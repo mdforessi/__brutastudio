@@ -90,6 +90,15 @@ grid-row-gap: 0;
     margin-top: 30px;
     }
 }
+
+
+.MainContacto
+{display: flex;
+flex-direction: column;
+
+.FormularioContacto
+{width: 100%;}}
+
 }
 
 
@@ -102,40 +111,42 @@ grid-row-gap: 0;
 @media (max-width: 576px) 
 {
     .Encabezado {
+        .NavBar {
+                font-size: 10px;
+                margin-right: 20px;
+                border-right: none;
+                display: none;
         
-    .NavBar , .navbar {
-        font-size: 10px;
-        margin-right: 20px;
-        border-right: none;
-        display: none;
-        .nav-item {
-            margin-block: 4px;
-            font-size: 10px;
-        }
-        }
+                .nav-item {
+                    margin-block: 4px;
+                    font-size: 10px;
+                }
+            }
         
         .Menu__hamburguesa {
             display: block;
             color: black;
             visibility: visible;
-
-            .container-fluid {
-                flex-wrap: wrap;
-                align-items: center;
-                flex-direction: row-reverse;
-                align-content: center;
-                justify-content: flex-start;
-                padding-right: 20%;
-                padding-top: 20px;
-                .navbar-toggler {
-                    margin-top: 10px;
+        
+                .container-fluid {
+                    flex-wrap: wrap;
+                    align-items: center;
+                    flex-direction: row-reverse;
+                    align-content: center;
+                    justify-content: flex-start;
+                    padding-right: 20%;
+                    padding-top: 20px;
+        
+                    .navbar-toggler {
+                        margin-top: 10px;
+                    }
                 }
-                }
-               }
-
-               
-        .logoBruta
-        {width: 30%;}
+            }
+        
+        
+            .logoBruta {
+                width: 30%;
+            }
         
     }
 
@@ -199,13 +210,6 @@ grid-row-gap: 0;
         {margin-bottom: 20px;}
     }
 
-
-    .MainContacto
-    {display: flex;
-    flex-direction: column;
-
-.FormularioContacto
-{width: 100%;}}
 
 
     .Footer
