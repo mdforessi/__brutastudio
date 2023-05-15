@@ -166,6 +166,7 @@ i {
   background-color: white;
   padding: 0;
   display: flex;
+  padding-top: 2%;
 }
 .Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler,
 .Encabezado .Menu__hamburguesa .navbar .navbar-toggler {
@@ -562,7 +563,7 @@ i {
 }
 
 @media (max-width: 890px) {
-  .NavBar li {
+  .Encabezado .NavBar li {
     font-size: 12px;
     margin-right: 2px;
     border-right: 2px;
@@ -574,10 +575,10 @@ i {
   }
 }
 @media (max-width: 768px) {
-  .NavBar {
+  .Encabezado .NavBar {
     margin-right: 40px;
   }
-  .NavBar .li {
+  .Encabezado .NavBar .li {
     font-size: 10px;
     display: inline-block;
     border: 8px;
