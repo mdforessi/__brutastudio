@@ -3,8 +3,5 @@
 
 
 .ParrafoIndex
-{ text-align: justify;
-    font-family: "Glook";
-    font-size: 24px;
-    margin-left: 6px;
-    padding-block: 8px;}
+{ @extend p ;
+    font-size: 22px;}
