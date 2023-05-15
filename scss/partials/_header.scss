@@ -9,7 +9,7 @@
         width: 20%;
     }
 
-    .NavBar {
+    .NavBar , .navbar {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -21,7 +21,8 @@
         align-items: center;
         align-content: center;
 
-        .NavBar li {
+        &li , .menu_item ,  #menu__item  
+        {
             font-family: "Glook", serif;
             font-size: 14px;
             display: inline-block;
@@ -32,11 +33,6 @@
             align-items: center;
             position: relative;
             text-decoration: none;
-            list-style-type: none;
-        }
-
-        .menu_item,
-        #menu__item {
             list-style-type: none;
         }
 

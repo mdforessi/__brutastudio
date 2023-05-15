@@ -117,7 +117,7 @@ i {
 .Encabezado .logoBruta {
   width: 20%;
 }
-.Encabezado .NavBar {
+.Encabezado .NavBar, .Encabezado .navbar {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -129,7 +129,7 @@ i {
   align-items: center;
   align-content: center;
 }
-.Encabezado .NavBar .NavBar li {
+.Encabezado .NavBarli, .Encabezado .NavBar .menu_item, .Encabezado .NavBar #menu__item, .Encabezado .navbarli, .Encabezado .navbar .menu_item, .Encabezado .navbar #menu__item {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
@@ -142,19 +142,19 @@ i {
   text-decoration: none;
   list-style-type: none;
 }
-.Encabezado .NavBar .menu_item,
-.Encabezado .NavBar #menu__item {
-  list-style-type: none;
-}
 .Encabezado .NavBar .menu_item a:hover,
 .Encabezado .NavBar .menu_item.active,
 .Encabezado .NavBar .menu_item .active,
-.Encabezado .NavBar .menu_item_active {
+.Encabezado .NavBar .menu_item_active, .Encabezado .navbar .menu_item a:hover,
+.Encabezado .navbar .menu_item.active,
+.Encabezado .navbar .menu_item .active,
+.Encabezado .navbar .menu_item_active {
   color: rgb(95, 95, 95);
   text-decoration: underline;
 }
 .Encabezado .NavBar:active,
-.Encabezado .NavBar .menu_item a:active {
+.Encabezado .NavBar .menu_item a:active, .Encabezado .navbar:active,
+.Encabezado .navbar .menu_item a:active {
   color: rgb(2, 3, 15);
   text-decoration: underline;
 }
