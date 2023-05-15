@@ -102,10 +102,6 @@ grid-row-gap: 0;
 @media (max-width: 576px) 
 {
     .Encabezado {
-
-        .logoBruta
-        {width: 30%;}
-        
         
     .NavBar , .navbar {
         font-size: 10px;
@@ -136,6 +132,11 @@ grid-row-gap: 0;
                 }
                 }
                }
+
+               
+        .logoBruta
+        {width: 30%;}
+        
     }
 
     .ParrafoIndex {

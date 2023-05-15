@@ -30,10 +30,11 @@ margin: 10px;}
 margin-top: 10px;
 margin: 10px;
 
+
     .BrutaEstiloLogo {
         display:flex;
-        font-family: "Glook", serif ;
-        font-size: 26px;
+        font-family: "Schoolbell", cursive;
+        font-size: 23px;
         font-weight: bold;
         border: 20px;
         padding-inline: 20px;
@@ -44,7 +45,8 @@ margin: 10px;
     
     .Casilla__footer
     {display: flex;
-        justify-content: flex-end;}
+        justify-content: flex-end;
+        font-size: 16px;}
     
         .Ig__footer
         {@extend .Casilla__footer}

@@ -238,8 +238,8 @@ i {
 }
 .Footer .FooterInfoContacto .BrutaEstiloLogo {
   display: flex;
-  font-family: "Glook", serif;
-  font-size: 26px;
+  font-family: "Schoolbell", cursive;
+  font-size: 23px;
   font-weight: bold;
   border: 20px;
   padding-inline: 20px;
@@ -250,6 +250,7 @@ i {
 .Footer .FooterInfoContacto .Casilla__footer, .Footer .FooterInfoContacto .Ig__footer {
   display: flex;
   justify-content: flex-end;
+  font-size: 16px;
 }
 .Footer .FooterBotonEnviarMail {
   display: flex;
@@ -636,9 +637,6 @@ i {
   }
 }
 @media (max-width: 576px) {
-  .Encabezado .logoBruta {
-    width: 30%;
-  }
   .Encabezado .NavBar, .Encabezado .navbar {
     font-size: 10px;
     margin-right: 20px;
@@ -665,6 +663,9 @@ i {
   }
   .Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler {
     margin-top: 10px;
+  }
+  .Encabezado .logoBruta {
+    width: 30%;
   }
   .ParrafoIndex {
     font-size: 12px;
