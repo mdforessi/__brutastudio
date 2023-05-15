@@ -267,6 +267,9 @@ input
     /*padding: 5px;*/
 }
 
+.SelectorConsulta
+{width: 100%;}
+
 .BotonEnviar
 {padding: 10px;
 background-color: black;
@@ -732,8 +735,8 @@ margin-right: 40px;
     
 .ServiciosPic {
     margin-top: 30px;
-
 }
+
 
 
 .p5
@@ -855,6 +858,12 @@ margin-bottom: 6px;}
     padding-bottom: 1px;
 padding-right: 1px;
 margin-bottom: 10px;}
+
+.MainContacto
+{display: block;}
+
+.FormularioContacto
+{width: 100%;}
 }
 
  
