@@ -198,7 +198,7 @@ i {
 }
 
 .Footer {
-  display: flex;
+  /*display: flex;*/
   bottom: 0;
   width: 100vw;
   flex-wrap: wrap;
@@ -262,6 +262,10 @@ i {
 
 .ParrafoIndex {
   font-size: 22px;
+}
+
+.EncabezadoIndex {
+  border-bottom: none;
 }
 
 .GrillaQuienesSomos {
