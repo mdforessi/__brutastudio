@@ -70,15 +70,19 @@
                 }
             }
 
-
-            .nav-item {
+            
+            .navbar-nav 
+            {display: flex;
+               align-items: flex-end;
+            
+               .nav-item {
                 font-family: "Glook", serif;
                 font-size: 14px;
                 display: inline-block;
-                border: 16px;
-                margin: 16px;
-                margin-block: 30px;
-                margin-top: 80px;
+                border: 2px;
+                margin: 2px;
+                margin-block: 5px;
+                margin-top: 5px;
                 color: black;
                 justify-content: center;
                 align-items: center;
@@ -86,13 +90,22 @@
                 text-decoration: none;
                 list-style-type: none;
 
+                   .nav-link {
+                 margin: 2px; 
+                     color: black;} 
+
+                }      
+            
+            }
+
+         
+
             }
 
 
         }
 
     }
-}
 
 
 

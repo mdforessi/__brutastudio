@@ -175,21 +175,31 @@ i {
 .Encabezado .Menu__hamburguesa .navbar .navbar-toggler .nav-link {
   text-align: right;
 }
-.Encabezado .Menu__hamburguesa .container-fluid .nav-item,
-.Encabezado .Menu__hamburguesa .navbar .nav-item {
+.Encabezado .Menu__hamburguesa .container-fluid .navbar-nav,
+.Encabezado .Menu__hamburguesa .navbar .navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+.Encabezado .Menu__hamburguesa .container-fluid .navbar-nav .nav-item,
+.Encabezado .Menu__hamburguesa .navbar .navbar-nav .nav-item {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
-  border: 16px;
-  margin: 16px;
-  margin-block: 30px;
-  margin-top: 80px;
+  border: 2px;
+  margin: 2px;
+  margin-block: 5px;
+  margin-top: 5px;
   color: black;
   justify-content: center;
   align-items: center;
   position: relative;
   text-decoration: none;
   list-style-type: none;
+}
+.Encabezado .Menu__hamburguesa .container-fluid .navbar-nav .nav-item .nav-link,
+.Encabezado .Menu__hamburguesa .navbar .navbar-nav .nav-item .nav-link {
+  margin: 2px;
+  color: black;
 }
 
 .row__footer {
