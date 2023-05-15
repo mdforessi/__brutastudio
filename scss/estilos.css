@@ -713,18 +713,18 @@ i {
   .Footer {
     margin-top: 20px;
   }
-  .Footer .Ig__footer, .Footer .Casilla__footer, .Footer .FooterInfoContacto .Ig__footer {
-    visibility: hidden;
+  .Footer .FooterInfoContacto .BrutaEstiloLogo {
+    padding-inline: 10px;
+    padding-bottom: 1px;
+    font-size: 18px;
   }
-  .Footer .bi-instagram, .Footer .bi-envelope {
+  .Footer .FooterInfoContacto .Ig__footer, .Footer .FooterInfoContacto .Casilla__footer {
+    visibility: hidden;
+    font-size: 12px;
+  }
+  .Footer .FooterInfoContacto .bi-instagram, .Footer .FooterInfoContacto .bi-envelope {
     visibility: visible;
     font-size: larger;
-  }
-  .Footer .BrutaEstiloLogo {
-    font-size: 18px;
-    padding-bottom: 1px;
-    padding-right: 1px;
-    margin-bottom: 10px;
   }
   body {
     margin: 0;

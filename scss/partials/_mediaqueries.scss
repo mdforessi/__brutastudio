@@ -228,19 +228,27 @@ flex-direction: column;
 
     .Footer
     {margin-top: 20px;
-    
-        .Ig__footer , .Casilla__footer
-        {visibility:hidden;}
-    
-        .bi-instagram , .bi-envelope
-        {visibility: visible;
-        font-size: larger;}
-    
+        
+    .FooterInfoContacto{
+
+
         .BrutaEstiloLogo
-        {font-size: 18px;
-        padding-bottom: 1px;
-    padding-right: 1px;
-    margin-bottom: 10px;}
+        {padding-inline: 10px;
+    padding-bottom: 1px;
+    font-size: 18px;
+    }
+
+    .Ig__footer , .Casilla__footer
+    {visibility:hidden;
+        font-size: 12px}
+
+    .bi-instagram , .bi-envelope
+    {visibility: visible;
+    font-size: larger;}
+
+    }
+    
+
     
         }
 
