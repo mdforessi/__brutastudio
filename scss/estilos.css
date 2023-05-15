@@ -633,7 +633,7 @@ i {
   .MainContacto .FormularioContacto {
     width: 100%;
   }
-  .QuienesSomosH2 {
+  .QuienesSomosTitulo .QuienesSomosH2 {
     font-family: "Glook";
     font-size: 18px;
     padding-block: 20px;
@@ -734,6 +734,10 @@ i {
   body {
     margin: 0;
     width: 100% !important;
+  }
+  .FooterPortfolio {
+    position: fixed;
+    bottom: 0;
   }
 }
 @media (max-width: 400px) {
