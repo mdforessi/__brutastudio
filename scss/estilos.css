@@ -649,6 +649,11 @@ i {
     bottom: 0;
     width: 100%;
   }
+  .FooterIndex {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .Encabezado .NavBar {
