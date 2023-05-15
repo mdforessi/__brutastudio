@@ -639,21 +639,25 @@ i {
     font-size: 18px;
     padding-block: 20px;
   }
-  .h2Contacto {
-    font-family: "Glook";
-    font-size: 18px;
-    padding-block: 20px;
-  }
-  .FooterPortfolio {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  .FooterIndex {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+}
+h2, .h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
+  font-family: "Glook";
+  font-size: 26px;
+  font-weight: lighter;
+  margin-left: 16px;
+  margin-block: 20px;
+  margin: 6px;
+  padding-block: 40px;
+}
+h2 .h2Contacto, .h2Contacto .h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 .h2Contacto {
+  font-family: "Glook";
+  font-size: 18px;
+  padding-block: 20px;
+}
+h2 .FooterPortfolio, h2 .FooterIndex, .h2Contacto .FooterPortfolio, .h2Contacto .FooterIndex, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 .FooterPortfolio, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 .FooterIndex {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 @media (max-width: 576px) {
   .Encabezado .NavBar {
@@ -746,7 +750,7 @@ i {
     margin: 0;
     width: 100% !important;
   }
-  .FooterPortfolio {
+  .FooterPortfolio, h2 .FooterIndex, .h2Contacto .FooterIndex, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 .FooterIndex {
     position: absolute;
     bottom: 0;
     width: 100%;

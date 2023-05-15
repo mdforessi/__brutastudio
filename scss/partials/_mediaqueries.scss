@@ -121,10 +121,13 @@ flex-direction: column;
     padding-block: 20px;}}
 
 
-.h2Contacto
-{font-family: "Glook";
+
+.h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
+    font-family: "Glook";
     font-size: 18px;
-padding-block: 20px;}
+    padding-block: 20px;
+}
+
 
 .FooterPortfolio
 {position: absolute;
