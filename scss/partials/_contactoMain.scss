@@ -1,0 +1,143 @@
+
+.PáginaContacto {
+    font-family: "Glook", serif ;
+    font-size: 20px;}
+
+
+    .MainContacto
+
+{display: flex;
+justify-content: space-around;
+padding-left: 5%;
+
+.FormularioContacto
+{background-image: linear-gradient(to top, $Color1,$Color2 ); 
+width: 40%;
+padding: 50px;
+font-family: "Glook";
+font-size: 12px;
+justify-content:flex-start;
+align-items: center}
+}
+
+.h2Contacto
+
+{@extend %TituloPagina;}
+
+
+
+.Ingresacorreo , .Ingresatunombre , .Dejatuconsulta
+{width: 100%;}
+
+#Dejanostuconsulta , .SelectorConsulta
+
+{font-family: "Glook";}
+
+
+.DivFormularioContacto
+
+{display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 10px;}
+
+
+
+
+.CajitaBotonEnviar
+{display:flex;
+    align-items: center;
+justify-content: center;}
+
+input
+{font-family: "Glook";
+    font-size: 14px;
+}
+
+.SelectorConsulta
+{width: 100%;}
+
+.BotonEnviar
+{padding: 10px;
+background-color: black;
+color: white;}
+
+.BotonSend
+
+{background-color: black;
+color: white;
+text-decoration: underline;
+margin: 10px;
+font-family: "Schoolbell";}
+
+
+.PortfolioFoto
+{margin-left: 10%;}
+
+
+
+
+
+
+.full-icon {
+    width: 40%;
+    display:Flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.full-icon .button-press {
+    transform-origin: 0% 8%;
+    animation: 3.7s btn-press infinite;
+}
+@keyframes btn-press {
+    0%, 2.702702702702703% { transform: scaleY(1); }
+    5.405405405405405%, 10.81081081081081% { transform: scaleY(0.75); }
+  10.91081081081081%, 100% { transform: scaleY(1); }
+}
+.full-icon .light-blink {
+    opacity: 0;
+    animation: 3.7s dot-blink infinite ease-out;
+}
+@keyframes dot-blink {
+    0%, 3.378378378378378% { opacity: 0; }
+    6.756756756756757% { opacity: 1; }
+    10.13513513513513% { opacity: 0; }
+    13.51351351351351% { opacity: 1; }
+    16.89189189189189%, 100% { opacity: 0; }
+}
+
+
+.GrillaContacto
+{display: grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: 1fr;
+grid-template-areas:
+    "p3__contacto p3__icon"
+    "p3__contacto p3__icon";
+grid-column-gap: 5%;
+padding-left: 5%;}
+
+.p3__contacto
+{grid-area: p3__contacto;}
+
+.animated__camera
+{grid-area: p3__icon;
+    grid-area: p3__icon;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;} 
+
+
+    .Ingresatunombre , .Ingresatucorreo , .Dejanostuconsulta , .ObjetoConsulta
+
+{width: 100%;
+align-items: center;
+}
+
+.Dejanostuconsulta , .ObjetoConsulta
+{padding: 5px;
+margin: 5px;}

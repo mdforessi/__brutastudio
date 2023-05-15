@@ -1,0 +1,86 @@
+
+.GrillaQuienesSomos
+
+{display: grid;
+padding-top: 4vh;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: 0.5fr;
+height: 20%;
+margin-left: 20%;
+margin-right: 20%;
+grid-template-areas:
+    "QuienesSomosTitulo QuienesSomosPic"
+    "QuienesSomosp1 QuienesSomosPic"
+    "QuienesSomosp2 QuienesSomosPic"
+    "QuienesSomosp3 QuienesSomosPic"
+    "QuienesSomosp4 QuienesSomosPic";
+grid-column-gap: 5%;
+justify-content: center;
+justify-items: stretch;
+
+
+.QuienesSomosTitulo
+{grid-area: QuienesSomosTitulo;
+margin-bottom: 20px;
+
+.QuienesSomosH2
+{@extend %TituloPagina;
+    padding-bottom: 20px;
+padding-top: 60px;
+}
+}
+
+.QuienesSomosp1
+{grid-area: QuienesSomosp1;}
+
+
+.QuienesSomosp2
+{grid-area: QuienesSomosp2;}
+
+.QuienesSomosp3
+{grid-area: QuienesSomosp3;}
+
+.QuienesSomosp4
+{grid-area: QuienesSomosp4;}
+
+
+
+.QuienesSomosPic
+{grid-area: QuienesSomosPic;
+justify-items: strech;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content:center;
+justify-self: center;
+align-self: center;
+animation-name: slide-top;
+-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+    }
+    100% {
+      -webkit-transform: translateY(1px);
+              transform: translateY(1px);
+    }
+  }
+
+.Edificio2
+    {grid-area: QuienesSomosPic;
+    justify-items: strech;}
+
+}
+
+
+
+}
+
+
+
+
+
+

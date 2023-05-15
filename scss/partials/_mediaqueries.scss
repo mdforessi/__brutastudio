@@ -44,7 +44,7 @@
     margin: 1px;}
     
     h4
-    {font-size: 12px;}
+    {font-size: 10px;}
 
         .ParrafoIndex {
         font-size: 16px;
@@ -199,6 +199,10 @@ margin-bottom: 6px;}
     .logoBruta 
     {width: 30%;}
 
+.container-fluid
+{padding-top: 20px;}
+
+
     .Footer {
 
     .Ig__footer , .Casilla__footer
@@ -214,9 +218,17 @@ margin-bottom: 6px;}
 padding-right: 1px;
 margin-bottom: 10px;}
 
-
     }
+}
 
+
+@media (max-width: 400px) 
+{
+.logoBruta
+{width: 40%;}
+
+.container-fluid
+{padding-top: 5px;}
 }
 
  

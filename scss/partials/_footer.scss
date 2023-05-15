@@ -18,17 +18,23 @@
     margin-top: 40px;
     padding-top: 40px;
     
-    .FooterNewsletter , .FooterInfoContacto
+    .FooterNewsletter
 {display: flex;
     flex-direction: column;
 margin-top: 10px;
 margin: 10px;
 
+.FooterInfoContacto
+{@extend .FooterNewsletter}
 
-.Casilla__footer , .Ig__footer
+
+.Casilla__footer
 
 {display: flex;
     justify-content: flex-end}
+
+    .Ig__footer
+    {@extend .Casilla__footer}
 
 
 .BrutaEstiloLogo {
@@ -39,7 +45,6 @@ margin: 10px;
     border: 20px;
     padding-inline: 20px;
     padding-bottom: 20px;
-    color: white;
     justify-content: flex-end;
     text-align: end;
 }
@@ -71,8 +76,6 @@ align-items: baseline;}
 }
 
 }
-
-
 }
 
 

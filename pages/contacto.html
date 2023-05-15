@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="./img/Diafragma negro.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/estilos.css">
 
 </head>
 
@@ -68,67 +68,75 @@
 
     <main>
         <div class="container">
-        <div class="GrillaContacto1">
-        <h2 class="h2Contacto">CONTACTO</h2>
-
-        <div class="MainContacto">
-        <div class="MainContactop">
-            <p class="p2">Completa el formulario y <br> te responderemos a la <br> brevedad</p>
-        </div>
-
-        <form class="FormularioContacto">
-            <div class="DivFormularioContacto">
-                <div>
-                    <input class="Ingresatunombre" type="nombre" placeholder="Ingresá tu nombre" required>
+            <div class="GrillaContacto1">
+                <h2 class="h2Contacto">CONTACTO</h2>
+    
+                <div class="MainContacto">
+                    <div class="MainContactop">
+                        <p class="p2">Completa el formulario y <br> te responderemos a la <br> brevedad</p>
+                    </div>
+    
+                    <form class="FormularioContacto">
+                        <div class="DivFormularioContacto">
+                            <div>
+                                <input class="Ingresatunombre" type="nombre" placeholder="Ingresá tu nombre" required>
+                            </div>
+                            <div class="Ingresacorreo">
+                                <input class="Ingresatucorreo" type="email" placeholder="Ingresá tu correo electrónico"
+                                    required>
+                            </div>
+                            <div class="ObjetoConsulta">
+                                Objeto de la consulta
+                                <select class="SelectorConsulta">
+                                    <option value="Presupuesto">
+                                        <label for="Presupuesto">Presupuesto</label>
+                                    </option>
+                                    <option value="Consulta de servicios">Consulta de servicios</option>
+                                    <option value="Sugerencias">Sugerencias</option>
+                                </select>
+                            </div>
+                            <div class="Dejatuconsulta">
+                                <textarea class="Dejanostuconsulta" name="Dejanos tu consulta" id="Dejanostuconsulta"
+                                    placeholder="Dejanos tu consulta"></textarea>
+                            </div>
+                            <div class="CajitaBotonEnviar">
+                                <input class="BotonEnviar" type="submit" value="Enviar">
+                            </div>
+                        </div>
                 </div>
-                <div class="Ingresacorreo">
-                    <input class="Ingresatucorreo" type="email" placeholder="Ingresá tu correo electrónico" required>
+                </form>
+    
+                <div class="MainContacto2 GrillaContacto">
+                    <div class="p3__contacto">
+                        <p class="p2 p4">O encontranos a <br> través de los <br> siguientes canales </p>
+    
+                        <p class="p3">Correo electrónico: <br> bruta.phstudio@gmail.com </p>
+    
+                        <p class="p3 p3__redes">Redes sociales: <br> https://www.instagram.com/___brutastudio</p>
+                    </div>
+    
+                    <div class="animated__camera">
+                        <div class="full-icon">
+                            <svg viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M40 22C17.9086 22 0 39.9086 0 62V174C0 196.091 17.9086 214 40 214H216C238.091 214 256 196.091 256 174V62C256 39.9086 238.091 22 216 22H40ZM36 144C31.5817 144 28 147.582 28 152V156C28 160.418 31.5817 164 36 164H220C224.418 164 228 160.418 228 156V152C228 147.582 224.418 144 220 144H36ZM168 82C168 104.091 150.091 122 128 122C105.909 122 88 104.091 88 82C88 59.9086 105.909 42 128 42C150.091 42 168 59.9086 168 82ZM30 59C35.5228 59 40 54.5228 40 49C40 43.4772 35.5228 39 30 39C24.4772 39 20 43.4772 20 49C20 54.5228 24.4772 59 30 59Z"
+                                    fill="#252525" />
+                                <path id="Subtract_2" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M128 112C144.569 112 158 98.5685 158 82C158 65.4315 144.569 52 128 52C111.431 52 98 65.4315 98 82C98 98.5685 111.431 112 128 112ZM128 102C139.046 102 148 93.0457 148 82C148 70.9543 139.046 62 128 62C116.954 62 108 70.9543 108 82C108 93.0457 116.954 102 128 102Z"
+                                    fill="#252525" />
+                                <path id="Ellipse 2" d="M128 67C136.284 67 143 73.7157 143 82L128 67Z" fill="#252525" />
+                                <circle class="light-blink" cx="30" cy="49" r="7" fill="#252525" />
+                                <path class="button-press"
+                                    d="M148 10C148 4.47715 152.477 0 158 0H198C203.523 0 208 4.47715 208 10V20H148V10Z"
+                                    fill="#252525" />
+                            </svg>
+                        </div>
+                    </div>
+    
                 </div>
-                <div class="ObjetoConsulta">
-                    Objeto de la consulta
-                    <select class="SelectorConsulta">
-                        <option value="Presupuesto">
-                            <label for="Presupuesto">Presupuesto</label>
-                        </option>
-                        <option value="Consulta de servicios">Consulta de servicios</option>
-                        <option value="Sugerencias">Sugerencias</option>
-                    </select>
-                </div>
-                <div class="Dejatuconsulta">
-                    <textarea class="Dejanostuconsulta" name="Dejanos tu consulta" id="Dejanostuconsulta" placeholder="Dejanos tu consulta"></textarea>
-                </div>
-                <div class="CajitaBotonEnviar">
-                    <input class="BotonEnviar" type="submit" value="Enviar">
-                </div>
+    
             </div>
         </div>
-        </form>
-
-          <div class="MainContacto2 GrillaContacto">
-        <div class="p3__contacto">
-            <p class="p2 p4">O encontranos a <br> través de los <br> siguientes canales </p>
-        
-            <p class="p3">Correo electrónico: <br> bruta.phstudio@gmail.com </p>
-               
-            <p class="p3 p3__redes">Redes sociales: <br> https://www.instagram.com/___brutastudio</p>
-        </div>   
-       
-        <div class="animated__camera">
-        <div class="full-icon">
-            <svg viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M40 22C17.9086 22 0 39.9086 0 62V174C0 196.091 17.9086 214 40 214H216C238.091 214 256 196.091 256 174V62C256 39.9086 238.091 22 216 22H40ZM36 144C31.5817 144 28 147.582 28 152V156C28 160.418 31.5817 164 36 164H220C224.418 164 228 160.418 228 156V152C228 147.582 224.418 144 220 144H36ZM168 82C168 104.091 150.091 122 128 122C105.909 122 88 104.091 88 82C88 59.9086 105.909 42 128 42C150.091 42 168 59.9086 168 82ZM30 59C35.5228 59 40 54.5228 40 49C40 43.4772 35.5228 39 30 39C24.4772 39 20 43.4772 20 49C20 54.5228 24.4772 59 30 59Z" fill="#252525" />
-              <path id="Subtract_2" fill-rule="evenodd" clip-rule="evenodd" d="M128 112C144.569 112 158 98.5685 158 82C158 65.4315 144.569 52 128 52C111.431 52 98 65.4315 98 82C98 98.5685 111.431 112 128 112ZM128 102C139.046 102 148 93.0457 148 82C148 70.9543 139.046 62 128 62C116.954 62 108 70.9543 108 82C108 93.0457 116.954 102 128 102Z" fill="#252525"/>
-              <path id="Ellipse 2" d="M128 67C136.284 67 143 73.7157 143 82L128 67Z" fill="#252525"/>
-              <circle class="light-blink" cx="30" cy="49" r="7" fill="#252525"/>
-              <path class="button-press" d="M148 10C148 4.47715 152.477 0 158 0H198C203.523 0 208 4.47715 208 10V20H148V10Z" fill="#252525" />
-            </svg>
-        </div>
-          </div>
-            
-</div>
-    
-</div>
-</div>
     </main>
 
 

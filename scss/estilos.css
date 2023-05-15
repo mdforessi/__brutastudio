@@ -1,4 +1,15 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+h2, .h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
+  font-family: "Glook";
+  font-size: 26px;
+  font-weight: lighter;
+  margin-left: 16px;
+  margin-block: 20px;
+  margin: 6px;
+  padding-block: 40px;
+}
+
 @font-face {
   font-family: "Kindergarden";
   src: url(../fonts/kindergarten.ttf);
@@ -20,4 +31,696 @@
 
 ::selection {
   background-color: rgb(201, 201, 201);
+}
+
+.row {
+  margin-right: 0;
+  width: 100vw;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Glook";
+  font-size: 26px;
+  font-weight: lighter;
+  margin-left: 16px;
+  margin-block: 20px;
+  margin: 6px;
+  padding-block: 15px;
+}
+
+.h4 {
+  font-family: "Glook";
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 16px;
+  margin-block: 20px;
+  margin: 6px;
+  padding-block: 15px;
+}
+
+.accordion__text {
+  font-family: "Glook";
+  font-size: 13px;
+}
+
+input {
+  margin: 5px;
+  padding: 1px;
+}
+
+p {
+  text-align: justify;
+  font-family: "Glook";
+  font-size: 18px;
+  margin-left: 6px;
+  padding-block: 8px;
+}
+
+.p2 {
+  font-size: 18px;
+  margin-block: 15px;
+}
+
+.p2.p4 {
+  margin-top: 50px;
+}
+
+.p3, .ListaServicios {
+  font-family: "Glook";
+  font-size: 16px;
+  margin-block: 15px;
+  list-style-type: circle;
+}
+
+.p5 {
+  font-size: 18px;
+}
+
+.p2.p6 {
+  margin-block: 5px;
+}
+
+i {
+  margin-inline: 0.5rem;
+}
+
+.EncabezadoIndex {
+  display: flex;
+  justify-content: space-between;
+}
+.EncabezadoIndex .logoBruta {
+  width: 20%;
+}
+.EncabezadoIndex .NavBar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right center;
+  background-color: white;
+  margin-right: 60px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  align-content: center;
+}
+.EncabezadoIndex .NavBar .NavBar li {
+  font-family: "Glook", serif;
+  font-size: 14px;
+  display: inline-block;
+  border: 16px;
+  margin: 16px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+}
+.EncabezadoIndex .NavBar .menu_item,
+.EncabezadoIndex .NavBar #menu__item {
+  list-style-type: none;
+}
+.EncabezadoIndex .NavBar .menu_item a:hover,
+.EncabezadoIndex .NavBar .menu_item.active,
+.EncabezadoIndex .NavBar .menu_item .active,
+.EncabezadoIndex .NavBar .menu_item_active {
+  color: rgb(95, 95, 95);
+  text-decoration: underline;
+}
+.EncabezadoIndex .NavBar:active,
+.EncabezadoIndex .NavBar .menu_item a:active {
+  color: rgb(2, 3, 15);
+  text-decoration: underline;
+}
+.EncabezadoIndex .Menu__hamburguesa {
+  display: none;
+}
+.EncabezadoIndex .Menu__hamburguesa .container-fluid,
+.EncabezadoIndex .Menu__hamburguesa .navbar {
+  background-color: white;
+  padding: 0;
+  display: flex;
+}
+.EncabezadoIndex .Menu__hamburguesa .container-fluid .navbar-toggler,
+.EncabezadoIndex .Menu__hamburguesa .navbar .navbar-toggler {
+  justify-content: end;
+}
+.EncabezadoIndex .Menu__hamburguesa .container-fluid .navbar-toggler .nav-link,
+.EncabezadoIndex .Menu__hamburguesa .navbar .navbar-toggler .nav-link {
+  text-align: right;
+}
+.EncabezadoIndex .Menu__hamburguesa .container-fluid .nav-item,
+.EncabezadoIndex .Menu__hamburguesa .navbar .nav-item {
+  font-family: "Glook", serif;
+  font-size: 14px;
+  display: inline-block;
+  border: 16px;
+  margin: 16px;
+  margin-block: 30px;
+  margin-top: 80px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.row__footer {
+  position: relative;
+  bottom: 0vw;
+}
+
+.Footer {
+  display: flex;
+  bottom: 0;
+  width: 100vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-family: "Schoolbell", cursive;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.Footer .FooterNewsletter, .Footer .FooterNewsletter .FooterInfoContacto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin: 10px;
+}
+.Footer .FooterNewsletter .Casilla__footer, .Footer .FooterNewsletter .Ig__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.Footer .FooterNewsletter .BrutaEstiloLogo {
+  display: flex;
+  font-family: "Glook", serif;
+  font-size: 26px;
+  font-weight: bold;
+  border: 20px;
+  padding-inline: 20px;
+  padding-bottom: 20px;
+  justify-content: flex-end;
+  text-align: end;
+}
+.Footer .FooterNewsletter .FooterBotonEnviarMail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Footer .FooterNewsletter .FooterBotonEnviarMail .CajitaMail {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.Footer .FooterNewsletter .FooterBotonEnviarMail .CajitaMail .Mail {
+  background-color: black;
+  color: white;
+  font-family: "Schoolbell", monospace;
+  font-size: 12px;
+  font-weight: bolder;
+  border: none;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.carousel-inner {
+  flex-grow: 1;
+}
+
+.ParrafoIndex {
+  text-align: justify;
+  font-family: "Glook";
+  font-size: 24px;
+  margin-left: 6px;
+  padding-block: 8px;
+}
+
+.GrillaQuienesSomos {
+  display: grid;
+  padding-top: 4vh;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 0.5fr;
+  height: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  grid-template-areas: "QuienesSomosTitulo QuienesSomosPic" "QuienesSomosp1 QuienesSomosPic" "QuienesSomosp2 QuienesSomosPic" "QuienesSomosp3 QuienesSomosPic" "QuienesSomosp4 QuienesSomosPic";
+  grid-column-gap: 5%;
+  justify-content: center;
+  justify-items: stretch;
+}
+.GrillaQuienesSomos .QuienesSomosTitulo {
+  grid-area: QuienesSomosTitulo;
+  margin-bottom: 20px;
+}
+.GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.GrillaQuienesSomos .QuienesSomosp1 {
+  grid-area: QuienesSomosp1;
+}
+.GrillaQuienesSomos .QuienesSomosp2 {
+  grid-area: QuienesSomosp2;
+}
+.GrillaQuienesSomos .QuienesSomosp3 {
+  grid-area: QuienesSomosp3;
+}
+.GrillaQuienesSomos .QuienesSomosp4 {
+  grid-area: QuienesSomosp4;
+}
+.GrillaQuienesSomos .QuienesSomosPic {
+  grid-area: QuienesSomosPic;
+  justify-items: strech;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+  animation-name: slide-top;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.GrillaQuienesSomos .QuienesSomosPic .Edificio2 {
+  grid-area: QuienesSomosPic;
+  justify-items: strech;
+}
+
+.PáginaContacto {
+  font-family: "Glook", serif;
+  font-size: 20px;
+}
+
+.MainContacto {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+.MainContacto .FormularioContacto {
+  background-image: linear-gradient(to top, rgb(213, 216, 216), #F2F1FA);
+  width: 40%;
+  padding: 50px;
+  font-family: "Glook";
+  font-size: 12px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Ingresacorreo, .Ingresatunombre, .Dejatuconsulta {
+  width: 100%;
+}
+
+#Dejanostuconsulta, .SelectorConsulta {
+  font-family: "Glook";
+}
+
+.DivFormularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.CajitaBotonEnviar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  font-family: "Glook";
+  font-size: 14px;
+}
+
+.SelectorConsulta {
+  width: 100%;
+}
+
+.BotonEnviar {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.BotonSend {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  margin: 10px;
+  font-family: "Schoolbell";
+}
+
+.PortfolioFoto {
+  margin-left: 10%;
+}
+
+.full-icon {
+  width: 40%;
+  display: Flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.full-icon .button-press {
+  transform-origin: 0% 8%;
+  animation: 3.7s btn-press infinite;
+}
+
+@keyframes btn-press {
+  0%, 2.702702702702703% {
+    transform: scaleY(1);
+  }
+  5.405405405405405%, 10.81081081081081% {
+    transform: scaleY(0.75);
+  }
+  10.91081081081081%, 100% {
+    transform: scaleY(1);
+  }
+}
+.full-icon .light-blink {
+  opacity: 0;
+  animation: 3.7s dot-blink infinite ease-out;
+}
+
+@keyframes dot-blink {
+  0%, 3.378378378378378% {
+    opacity: 0;
+  }
+  6.756756756756757% {
+    opacity: 1;
+  }
+  10.13513513513513% {
+    opacity: 0;
+  }
+  13.51351351351351% {
+    opacity: 1;
+  }
+  16.89189189189189%, 100% {
+    opacity: 0;
+  }
+}
+.GrillaContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas: "p3__contacto p3__icon" "p3__contacto p3__icon";
+  grid-column-gap: 5%;
+  padding-left: 5%;
+}
+
+.p3__contacto {
+  grid-area: p3__contacto;
+}
+
+.animated__camera {
+  grid-area: p3__icon;
+  grid-area: p3__icon;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Ingresatunombre, .Ingresatucorreo, .Dejanostuconsulta, .ObjetoConsulta {
+  width: 100%;
+  align-items: center;
+}
+
+.Dejanostuconsulta, .ObjetoConsulta {
+  padding: 5px;
+  margin: 5px;
+}
+
+.GrillaPortfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "Portfolio1 Portfolio2 Portfolio3 Portfolio4" "Portfolio5 Portfolio6 Portfolio7 Portfolio8";
+  justify-content: center;
+  justify-items: stretch;
+}
+.GrillaPortfolio .Portfolio1 {
+  grid-area: Portfolio1;
+  justify-items: strech;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio2 {
+  grid-area: Portfolio2;
+  justify-items: strech;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio3 {
+  grid-area: Portfolio3;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio4 {
+  grid-area: Portfolio4;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio5 {
+  grid-area: Portfolio5;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio6 {
+  grid-area: Portfolio6;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio7 {
+  grid-area: Portfolio7;
+  transition: 1s;
+}
+.GrillaPortfolio .Portfolio8 {
+  grid-area: Portfolio8;
+  transition: 1s;
+}
+.GrillaPortfolio .portfolio__foto {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  flex: 1;
+}
+.GrillaPortfolio .Portfolio1:hover, .GrillaPortfolio .Portfolio2:hover, .GrillaPortfolio .Portfolio3:hover, .GrillaPortfolio .Portfolio4:hover, .GrillaPortfolio .Portfolio5:hover, .GrillaPortfolio .Portfolio6:hover, .GrillaPortfolio .Portfolio7:hover, .GrillaPortfolio .Portfolio8:hover {
+  transform: scale(1.1);
+}
+
+.GrillaServicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 0, 5fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-template-areas: "Servicios ServiciosFoto ServiciosFoto" "p2 ServiciosFoto ServiciosFoto" "ListaServicios ServiciosFoto ServiciosFoto";
+  grid-column-gap: 10%;
+  grid-row-gap: 0;
+}
+.GrillaServicios .Servicios {
+  grid-area: Servicios;
+}
+.GrillaServicios .ListaServicios {
+  grid-area: ListaServicios;
+  list-style-type: disc;
+  margin-inline: 15px;
+}
+.GrillaServicios .ServiciosPic, .GrillaServicios .ServiciosPic .ServiciosFoto {
+  grid-area: ServiciosFoto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+  margin-top: 80px;
+}
+.GrillaServicios .p2 {
+  grid-area: p2;
+}
+
+@media (max-width: 890px) {
+  .NavBar li {
+    font-size: 12px;
+    margin-right: 2px;
+    border-right: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-inner {
+    width: 98vw;
+  }
+}
+@media (max-width: 768px) {
+  .NavBar {
+    margin-right: 40px;
+  }
+  .NavBar .li {
+    font-size: 10px;
+    display: inline-block;
+    border: 8px;
+    margin: 8px;
+    margin-right: 5px;
+    margin-top: 40px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  h2 {
+    font-family: "Glook";
+    font-size: 18px;
+    padding-block: 20px;
+  }
+  h3 {
+    padding-block: 2px;
+    margin: 1px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  .ParrafoIndex {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .BrutaEstiloLogo {
+    padding-inline: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .GrillaServicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 0, 5fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-areas: "Servicios" "p2" "ListaServicios" "ServiciosFoto";
+    grid-column-gap: 10%;
+    grid-row-gap: 0;
+  }
+  .GrillaServicios .ServiciosPic, .GrillaServicios .ServiciosPic .ServiciosFoto {
+    margin-top: 30px;
+  }
+  .p5 {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 576px) {
+  .NavBar {
+    font-size: 10px;
+    margin-right: 20px;
+    border-right: none;
+    display: none;
+  }
+  .NavBar .nav-item {
+    margin-block: 4px;
+    font-size: 10px;
+  }
+  .ParrafoIndex {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  h2 {
+    font-family: "Glook";
+    font-size: 16px;
+    padding-block: 10px;
+  }
+  .Menu__hamburguesa {
+    display: block;
+    color: black;
+    visibility: visible;
+  }
+  .Menu__hamburguesa .container-fluid {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-start;
+    padding-right: 20%;
+  }
+  .Menu__hamburguesa .navbar-toggler {
+    margin-top: 10px;
+  }
+  .Footer {
+    margin-top: 20px;
+  }
+  .GrillaServicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 0, 5fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-areas: "Servicios" "p2" "ListaServicios" "ServiciosFoto";
+    grid-column-gap: 10%;
+    grid-row-gap: 0;
+  }
+  .GrillaServicios .ServiciosPic, .GrillaServicios .ServiciosPic .ServiciosFoto {
+    margin-top: 30px;
+  }
+  h3 {
+    padding-block: 2px;
+    margin: 1px;
+  }
+  .GrillaQuienesSomos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 0.1fr;
+    grid-template-areas: "QuienesSomosTitulo" "QuienesSomosp1" "QuienesSomosp2" "QuienesSomosp3" "QuienesSomosp4" "QuienesSomosPic";
+    grid-column-gap: 10%;
+    grid-row-gap: 0;
+  }
+  .GrillaQuienesSomos .QuienesSomosH2 {
+    padding-block: 10px;
+  }
+  .GrillaQuienesSomos .QuienesSomosp4 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    width: 100% !important;
+  }
+  .logoBruta {
+    width: 30%;
+  }
+  .container-fluid {
+    padding-top: 20px;
+  }
+  .Footer .Ig__footer, .Footer .Casilla__footer, .Footer .FooterNewsletter .Ig__footer {
+    visibility: hidden;
+  }
+  .Footer .bi-instagram, .Footer .bi-envelope {
+    visibility: visible;
+    font-size: larger;
+  }
+  .Footer .BrutaEstiloLogo {
+    font-size: 18px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .logoBruta {
+    width: 40%;
+  }
+  .container-fluid {
+    padding-top: 5px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

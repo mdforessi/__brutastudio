@@ -1,0 +1,59 @@
+
+h2
+{@extend %TituloPagina;}
+
+.GrillaPortfolio
+    {display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "Portfolio1 Portfolio2 Portfolio3 Portfolio4"
+            "Portfolio5 Portfolio6 Portfolio7 Portfolio8";
+            justify-content: center;
+justify-items: stretch;
+
+.Portfolio1
+{grid-area: Portfolio1;
+justify-items: strech;
+object-fit: cover;
+transition: 1s;}
+
+.Portfolio2
+{grid-area: Portfolio2;
+    justify-items: strech;
+    object-fit: cover;
+    transition: 1s;}
+
+.Portfolio3
+{grid-area: Portfolio3;
+ transition: 1s;}
+
+.Portfolio4
+{grid-area: Portfolio4;
+    transition: 1s;}
+
+.Portfolio5
+{grid-area: Portfolio5;
+    transition: 1s;}
+.Portfolio6
+{grid-area: Portfolio6;
+    transition: 1s;}
+.Portfolio7
+{grid-area: Portfolio7;
+    transition: 1s;}
+.Portfolio8
+{grid-area: Portfolio8;
+    transition: 1s;}
+
+.portfolio__foto
+{flex-grow: 0;
+flex-shrink: 1;
+flex-basis: 100%;
+flex: 1;}
+
+.Portfolio1:hover , .Portfolio2:hover, .Portfolio3:hover, .Portfolio4:hover, .Portfolio5:hover, .Portfolio6:hover, .Portfolio7:hover, .Portfolio8:hover
+{transform: scale(1.1);}
+
+        }
+
+

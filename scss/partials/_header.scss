@@ -1,0 +1,105 @@
+.EncabezadoIndex {
+    display: flex;
+    justify-content: space-between;
+
+    .logoBruta {
+        width: 20%;
+    }
+
+    .NavBar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: right center;
+        background-color: white;
+        margin-right: 60px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        align-content: center;
+
+        .NavBar li {
+            font-family: "Glook", serif;
+            font-size: 14px;
+            display: inline-block;
+            border: 16px;
+            margin: 16px;
+            margin-top: 80px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        .menu_item,
+        #menu__item {
+            list-style-type: none;
+        }
+
+        .menu_item a:hover,
+        .menu_item.active,
+        .menu_item .active,
+        .menu_item_active {
+            color: rgb(95, 95, 95);
+            text-decoration: underline
+        }
+
+        &:active,
+        .menu_item a:active {
+            color: rgb(2, 3, 15);
+            text-decoration: underline
+        }
+
+
+    }
+
+    .Menu__hamburguesa {
+        display: none;
+
+        .container-fluid,
+        .navbar {
+            background-color: white;
+            padding: 0;
+            display: flex;
+
+            .navbar-toggler {
+                justify-content: end;
+
+                .nav-link {
+                    text-align: right;
+                }
+            }
+
+
+            .nav-item {
+                font-family: "Glook", serif;
+                font-size: 14px;
+                display: inline-block;
+                border: 16px;
+                margin: 16px;
+                margin-block: 30px;
+                margin-top: 80px;
+                color: black;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                text-decoration: none;
+                list-style-type: none;
+
+            }
+
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
