@@ -112,13 +112,12 @@ i {
 .Encabezado {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 }
-
-.logoBruta {
+.Encabezado .logoBruta {
   width: 20%;
 }
-
-.NavBar {
+.Encabezado .NavBar {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -130,7 +129,7 @@ i {
   align-items: center;
   align-content: center;
 }
-.NavBar .NavBar li {
+.Encabezado .NavBar .NavBar li {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
@@ -143,42 +142,41 @@ i {
   text-decoration: none;
   list-style-type: none;
 }
-.NavBar .menu_item,
-.NavBar #menu__item {
+.Encabezado .NavBar .menu_item,
+.Encabezado .NavBar #menu__item {
   list-style-type: none;
 }
-.NavBar .menu_item a:hover,
-.NavBar .menu_item.active,
-.NavBar .menu_item .active,
-.NavBar .menu_item_active {
+.Encabezado .NavBar .menu_item a:hover,
+.Encabezado .NavBar .menu_item.active,
+.Encabezado .NavBar .menu_item .active,
+.Encabezado .NavBar .menu_item_active {
   color: rgb(95, 95, 95);
   text-decoration: underline;
 }
-.NavBar:active,
-.NavBar .menu_item a:active {
+.Encabezado .NavBar:active,
+.Encabezado .NavBar .menu_item a:active {
   color: rgb(2, 3, 15);
   text-decoration: underline;
 }
-
-.Menu__hamburguesa {
+.Encabezado .Menu__hamburguesa {
   display: none;
 }
-.Menu__hamburguesa .container-fluid,
-.Menu__hamburguesa .navbar {
+.Encabezado .Menu__hamburguesa .container-fluid,
+.Encabezado .Menu__hamburguesa .navbar {
   background-color: white;
   padding: 0;
   display: flex;
 }
-.Menu__hamburguesa .container-fluid .navbar-toggler,
-.Menu__hamburguesa .navbar .navbar-toggler {
+.Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler,
+.Encabezado .Menu__hamburguesa .navbar .navbar-toggler {
   justify-content: end;
 }
-.Menu__hamburguesa .container-fluid .navbar-toggler .nav-link,
-.Menu__hamburguesa .navbar .navbar-toggler .nav-link {
+.Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler .nav-link,
+.Encabezado .Menu__hamburguesa .navbar .navbar-toggler .nav-link {
   text-align: right;
 }
-.Menu__hamburguesa .container-fluid .nav-item,
-.Menu__hamburguesa .navbar .nav-item {
+.Encabezado .Menu__hamburguesa .container-fluid .nav-item,
+.Encabezado .Menu__hamburguesa .navbar .nav-item {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
@@ -220,11 +218,7 @@ i {
   margin-top: 10px;
   margin: 10px;
 }
-.Footer .FooterNewsletter .Casilla__footer, .Footer .FooterNewsletter .Ig__footer {
-  display: flex;
-  justify-content: flex-end;
-}
-.Footer .FooterNewsletter .BrutaEstiloLogo {
+.Footer .FooterNewsletter .FooterInfoContacto .BrutaEstiloLogo {
   display: flex;
   font-family: "Glook", serif;
   font-size: 26px;
@@ -234,6 +228,10 @@ i {
   padding-bottom: 20px;
   justify-content: flex-end;
   text-align: end;
+}
+.Footer .FooterNewsletter .FooterInfoContacto .Casilla__footer, .Footer .FooterNewsletter .FooterInfoContacto .Ig__footer {
+  display: flex;
+  justify-content: flex-end;
 }
 .Footer .FooterNewsletter .FooterBotonEnviarMail {
   display: flex;
@@ -705,7 +703,7 @@ input {
   .container-fluid {
     padding-top: 20px;
   }
-  .Footer .Ig__footer, .Footer .Casilla__footer, .Footer .FooterNewsletter .Ig__footer {
+  .Footer .Ig__footer, .Footer .Casilla__footer, .Footer .FooterNewsletter .FooterInfoContacto .Ig__footer {
     visibility: hidden;
   }
   .Footer .bi-instagram, .Footer .bi-envelope {
