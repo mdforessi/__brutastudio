@@ -113,10 +113,12 @@ i {
   display: flex;
   justify-content: space-between;
 }
-.Encabezado .logoBruta {
+
+.logoBruta {
   width: 20%;
 }
-.Encabezado .NavBar {
+
+.NavBar {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -128,7 +130,7 @@ i {
   align-items: center;
   align-content: center;
 }
-.Encabezado .NavBar .NavBar li {
+.NavBar .NavBar li {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
@@ -141,41 +143,42 @@ i {
   text-decoration: none;
   list-style-type: none;
 }
-.Encabezado .NavBar .menu_item,
-.Encabezado .NavBar #menu__item {
+.NavBar .menu_item,
+.NavBar #menu__item {
   list-style-type: none;
 }
-.Encabezado .NavBar .menu_item a:hover,
-.Encabezado .NavBar .menu_item.active,
-.Encabezado .NavBar .menu_item .active,
-.Encabezado .NavBar .menu_item_active {
+.NavBar .menu_item a:hover,
+.NavBar .menu_item.active,
+.NavBar .menu_item .active,
+.NavBar .menu_item_active {
   color: rgb(95, 95, 95);
   text-decoration: underline;
 }
-.Encabezado .NavBar:active,
-.Encabezado .NavBar .menu_item a:active {
+.NavBar:active,
+.NavBar .menu_item a:active {
   color: rgb(2, 3, 15);
   text-decoration: underline;
 }
-.Encabezado .Menu__hamburguesa {
+
+.Menu__hamburguesa {
   display: none;
 }
-.Encabezado .Menu__hamburguesa .container-fluid,
-.Encabezado .Menu__hamburguesa .navbar {
+.Menu__hamburguesa .container-fluid,
+.Menu__hamburguesa .navbar {
   background-color: white;
   padding: 0;
   display: flex;
 }
-.Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler,
-.Encabezado .Menu__hamburguesa .navbar .navbar-toggler {
+.Menu__hamburguesa .container-fluid .navbar-toggler,
+.Menu__hamburguesa .navbar .navbar-toggler {
   justify-content: end;
 }
-.Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler .nav-link,
-.Encabezado .Menu__hamburguesa .navbar .navbar-toggler .nav-link {
+.Menu__hamburguesa .container-fluid .navbar-toggler .nav-link,
+.Menu__hamburguesa .navbar .navbar-toggler .nav-link {
   text-align: right;
 }
-.Encabezado .Menu__hamburguesa .container-fluid .nav-item,
-.Encabezado .Menu__hamburguesa .navbar .nav-item {
+.Menu__hamburguesa .container-fluid .nav-item,
+.Menu__hamburguesa .navbar .nav-item {
   font-family: "Glook", serif;
   font-size: 14px;
   display: inline-block;
