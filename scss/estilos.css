@@ -166,7 +166,7 @@ i {
   background-color: white;
   padding: 0;
   display: flex;
-  padding-top: 2%;
+  padding-top: 20px;
 }
 .Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler,
 .Encabezado .Menu__hamburguesa .navbar .navbar-toggler {
