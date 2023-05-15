@@ -212,7 +212,13 @@ i {
   margin-top: 40px;
   padding-top: 40px;
 }
-.Footer .FooterNewsletter, .Footer .FooterNewsletter .FooterInfoContacto {
+.Footer .FooterNewsletter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin: 10px;
+}
+.Footer .FooterNewsletter .FooterInfoContacto {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -649,8 +655,7 @@ input {
     color: black;
     visibility: visible;
   }
-  
-  .container-fluid {
+  .Menu__hamburguesa .container-fluid {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row-reverse;
