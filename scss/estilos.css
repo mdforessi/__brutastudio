@@ -622,6 +622,9 @@ input {
   }
 }
 @media (max-width: 576px) {
+  .logoBruta {
+    width: 30%;
+  }
   .NavBar {
     font-size: 10px;
     margin-right: 20px;
@@ -646,19 +649,18 @@ input {
     color: black;
     visibility: visible;
   }
-  .Menu__hamburguesa .container-fluid {
+  
+  .container-fluid {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row-reverse;
     align-content: center;
     justify-content: flex-start;
     padding-right: 20%;
+    padding-top: 20px;
   }
-  .Menu__hamburguesa .navbar-toggler {
+  .Menu__hamburguesa .container-fluid .navbar-toggler {
     margin-top: 10px;
-  }
-  .Footer {
-    margin-top: 20px;
   }
   .GrillaServicios {
     display: grid;
@@ -691,17 +693,8 @@ input {
   .GrillaQuienesSomos .QuienesSomosp4 {
     margin-bottom: 20px;
   }
-}
-@media (max-width: 576px) {
-  body {
-    margin: 0;
-    width: 100% !important;
-  }
-  .logoBruta {
-    width: 30%;
-  }
-  .container-fluid {
-    padding-top: 20px;
+  .Footer {
+    margin-top: 20px;
   }
   .Footer .Ig__footer, .Footer .Casilla__footer, .Footer .FooterNewsletter .FooterInfoContacto .Ig__footer {
     visibility: hidden;
@@ -715,6 +708,12 @@ input {
     padding-bottom: 1px;
     padding-right: 1px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    width: 100% !important;
   }
 }
 @media (max-width: 400px) {

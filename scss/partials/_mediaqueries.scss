@@ -89,6 +89,10 @@ margin-bottom: 6px;}
 
 @media (max-width: 576px) 
 {
+    .logoBruta 
+    {width: 30%;}
+
+
     .NavBar {
         font-size: 10px;
         margin-right: 20px;
@@ -123,20 +127,17 @@ margin-bottom: 6px;}
                         align-content: center;
                         justify-content: flex-start;
                         padding-right: 20%;
+                        padding-top: 20px;
+                        .navbar-toggler {
+                            margin-top: 10px;
+                        }
+                    
                     }
         
-                    .navbar-toggler {
-                        margin-top: 10px;
-                    }
+                    
                 }
 
  
-
-
-
-
-    .Footer
-    {margin-top: 20px;}
   
     .GrillaServicios
 
@@ -183,6 +184,25 @@ margin-bottom: 6px;}
         .QuienesSomosp4
         {margin-bottom: 20px;}
     }
+
+    .Footer
+    {margin-top: 20px;
+    
+        .Ig__footer , .Casilla__footer
+        {visibility:hidden;}
+    
+        .bi-instagram , .bi-envelope
+        {visibility: visible;
+        font-size: larger;}
+    
+        .BrutaEstiloLogo
+        {font-size: 18px;
+        padding-bottom: 1px;
+    padding-right: 1px;
+    margin-bottom: 10px;}
+    
+        }
+
 }
 
 
@@ -195,30 +215,6 @@ margin-bottom: 6px;}
     body{margin: 0;
         width: 100% !important;}
     
-    
-    .logoBruta 
-    {width: 30%;}
-
-.container-fluid
-{padding-top: 20px;}
-
-
-    .Footer {
-
-    .Ig__footer , .Casilla__footer
-    {visibility:hidden;}
-
-    .bi-instagram , .bi-envelope
-    {visibility: visible;
-    font-size: larger;}
-
-    .BrutaEstiloLogo
-    {font-size: 18px;
-    padding-bottom: 1px;
-padding-right: 1px;
-margin-bottom: 10px;}
-
-    }
 }
 
 
