@@ -9,7 +9,7 @@
         width: 20%;
     }
 
-    .NavBar , .navbar {
+    .NavBar {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -56,7 +56,7 @@
     .Menu__hamburguesa {
         display: none;
         padding-bottom: 5%;
-}
+
 
         .container-fluid,
         .navbar {
@@ -107,6 +107,7 @@
 
 
         }
+    }
 
 
 
