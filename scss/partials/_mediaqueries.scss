@@ -20,6 +20,24 @@
 
 @media (max-width: 768px) {    
     
+    h2 {font-family: "Glook";
+        font-size: 18px;
+    padding-block: 20px;}
+
+    h3
+    {padding-block: 2px;
+    margin: 1px;}
+    
+    h4
+    {font-size: 10px;}
+
+.p2
+{font-size: 16px;}
+
+.p5 
+{font-size: 14px;
+margin-bottom: 6px;}
+
 
 .Encabezado 
 {
@@ -45,51 +63,35 @@
 
 }
 
-    h2 {font-family: "Glook";
-        font-size: 18px;
-    padding-block: 20px;}
 
-    h3
-    {padding-block: 2px;
-    margin: 1px;}
-    
-    h4
-    {font-size: 10px;}
+.ParrafoIndex {
+    font-size: 16px;
+margin-bottom: 12px;}
 
-        .ParrafoIndex {
-        font-size: 16px;
-    margin-bottom: 12px;}
+.BrutaEstiloLogo
+{padding-inline: 10px;
+padding-bottom: 10px;
+font-size: 22px;}
 
-    .BrutaEstiloLogo
-    {padding-inline: 10px;
-    padding-bottom: 10px;
-    font-size: 22px;}
-
-    .GrillaServicios
-    {display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 0,5fr;
-    margin-left: 10%;
-    margin-right: 10%;
-    grid-template-areas:
-        "Servicios"
-        "p2"
-        "ListaServicios"
-        "ServiciosFoto" ;
-    grid-column-gap: 10%;
-    grid-row-gap: 0;
-        .ServiciosPic {
-        margin-top: 30px;
-        }
+.GrillaServicios
+{display: grid;
+grid-template-columns: 1fr;
+grid-auto-rows: 0,5fr;
+margin-left: 10%;
+margin-right: 10%;
+grid-template-areas:
+    "Servicios"
+    "p2"
+    "ListaServicios"
+    "ServiciosFoto" ;
+grid-column-gap: 10%;
+grid-row-gap: 0;
+    .ServiciosPic {
+    margin-top: 30px;
+    }
+}
 }
 
-
-
-.p5
-{font-size: 14px;
-margin-bottom: 6px;}
-
-}
 
 
 

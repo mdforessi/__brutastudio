@@ -576,6 +576,25 @@ i {
   }
 }
 @media (max-width: 768px) {
+  h2 {
+    font-family: "Glook";
+    font-size: 18px;
+    padding-block: 20px;
+  }
+  h3 {
+    padding-block: 2px;
+    margin: 1px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  .p2 {
+    font-size: 16px;
+  }
+  .p5 {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
   .Encabezado .NavBar {
     margin-right: 40px;
   }
@@ -592,18 +611,6 @@ i {
     position: relative;
     text-decoration: none;
     list-style-type: none;
-  }
-  h2 {
-    font-family: "Glook";
-    font-size: 18px;
-    padding-block: 20px;
-  }
-  h3 {
-    padding-block: 2px;
-    margin: 1px;
-  }
-  h4 {
-    font-size: 10px;
   }
   .ParrafoIndex {
     font-size: 16px;
@@ -626,10 +633,6 @@ i {
   }
   .GrillaServicios .ServiciosPic, .GrillaServicios .ServiciosPic .ServiciosFoto {
     margin-top: 30px;
-  }
-  .p5 {
-    font-size: 14px;
-    margin-bottom: 6px;
   }
 }
 @media (max-width: 576px) {
