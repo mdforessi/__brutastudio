@@ -403,7 +403,7 @@ i {
   grid-auto-rows: 1fr;
   grid-template-areas: "p3__contacto p3__icon" "p3__contacto p3__icon";
   grid-column-gap: 5%;
-  padding-left: 5%;
+  padding-inline: 10%;
 }
 .GrillaContacto .p3__contacto {
   grid-area: p3__contacto;
@@ -624,15 +624,32 @@ i {
   .logoBruta {
     width: 30%;
   }
-  .NavBar {
+  .Encabezado .NavBar, .Encabezado .navbar {
     font-size: 10px;
     margin-right: 20px;
     border-right: none;
     display: none;
   }
-  .NavBar .nav-item {
+  .Encabezado .NavBar .nav-item, .Encabezado .navbar .nav-item {
     margin-block: 4px;
     font-size: 10px;
+  }
+  .Encabezado .Menu__hamburguesa {
+    display: block;
+    color: black;
+    visibility: visible;
+  }
+  .Encabezado .Menu__hamburguesa .container-fluid {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-start;
+    padding-right: 20%;
+    padding-top: 20px;
+  }
+  .Encabezado .Menu__hamburguesa .container-fluid .navbar-toggler {
+    margin-top: 10px;
   }
   .ParrafoIndex {
     font-size: 12px;
@@ -642,23 +659,6 @@ i {
     font-family: "Glook";
     font-size: 16px;
     padding-block: 10px;
-  }
-  .Menu__hamburguesa {
-    display: block;
-    color: black;
-    visibility: visible;
-  }
-  .Menu__hamburguesa .container-fluid {
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row-reverse;
-    align-content: center;
-    justify-content: flex-start;
-    padding-right: 20%;
-    padding-top: 20px;
-  }
-  .Menu__hamburguesa .container-fluid .navbar-toggler {
-    margin-top: 10px;
   }
   .GrillaServicios {
     display: grid;
@@ -707,8 +707,6 @@ i {
     padding-right: 1px;
     margin-bottom: 10px;
   }
-}
-@media (max-width: 576px) {
   body {
     margin: 0;
     width: 100% !important;
