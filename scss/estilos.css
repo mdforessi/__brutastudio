@@ -323,6 +323,14 @@ i {
   grid-area: QuienesSomosPic;
   justify-items: strech;
 }
+@keyframes slide-top {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
+}
 
 .PáginaContacto {
   font-family: "Glook", serif;
@@ -343,38 +351,39 @@ i {
   justify-content: flex-start;
   align-items: center;
 }
-
-.Ingresacorreo, .Ingresatunombre, .Dejatuconsulta {
-  width: 100%;
-}
-
-#Dejanostuconsulta, .SelectorConsulta {
-  font-family: "Glook";
-}
-
-.DivFormularioContacto {
+.MainContacto .FormularioContacto .DivFormularioContacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-
-.CajitaBotonEnviar {
+.MainContacto .FormularioContacto .Ingresacorreo, .MainContacto .FormularioContacto .Ingresatunombre, .MainContacto .FormularioContacto .Dejatuconsulta {
+  width: 100%;
+}
+.MainContacto .FormularioContacto #Dejanostuconsulta, .MainContacto .FormularioContacto .SelectorConsulta {
+  font-family: "Glook";
+}
+.MainContacto .FormularioContacto .Ingresatunombre, .MainContacto .FormularioContacto .Ingresatucorreo, .MainContacto .FormularioContacto .Dejanostuconsulta, .MainContacto .FormularioContacto .ObjetoConsulta {
+  width: 100%;
+  align-items: center;
+}
+.MainContacto .FormularioContacto .Dejanostuconsulta, .MainContacto .FormularioContacto .ObjetoConsulta {
+  padding: 5px;
+  margin: 5px;
+}
+.MainContacto .FormularioContacto .SelectorConsulta {
+  width: 100%;
+}
+.MainContacto .FormularioContacto .CajitaBotonEnviar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-input {
+.MainContacto .FormularioContacto .CajitaBotonEnviar input {
   font-family: "Glook";
   font-size: 14px;
 }
-
-.SelectorConsulta {
-  width: 100%;
-}
-
-.BotonEnviar {
+.MainContacto .FormularioContacto .CajitaBotonEnviar .BotonEnviar {
   padding: 10px;
   background-color: black;
   color: white;
@@ -388,22 +397,35 @@ input {
   font-family: "Schoolbell";
 }
 
-.PortfolioFoto {
-  margin-left: 10%;
+.GrillaContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas: "p3__contacto p3__icon" "p3__contacto p3__icon";
+  grid-column-gap: 5%;
+  padding-left: 5%;
 }
-
-.full-icon {
+.GrillaContacto .p3__contacto {
+  grid-area: p3__contacto;
+}
+.GrillaContacto .animated__camera {
+  grid-area: p3__icon;
+  grid-area: p3__icon;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.GrillaContacto .full-icon {
   width: 40%;
   display: Flex;
   justify-items: center;
   align-items: center;
 }
-
-.full-icon .button-press {
+.GrillaContacto .full-icon .button-press {
   transform-origin: 0% 8%;
   animation: 3.7s btn-press infinite;
 }
-
 @keyframes btn-press {
   0%, 2.702702702702703% {
     transform: scaleY(1);
@@ -415,11 +437,10 @@ input {
     transform: scaleY(1);
   }
 }
-.full-icon .light-blink {
+.GrillaContacto .full-icon .light-blink {
   opacity: 0;
   animation: 3.7s dot-blink infinite ease-out;
 }
-
 @keyframes dot-blink {
   0%, 3.378378378378378% {
     opacity: 0;
@@ -436,37 +457,6 @@ input {
   16.89189189189189%, 100% {
     opacity: 0;
   }
-}
-.GrillaContacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr;
-  grid-template-areas: "p3__contacto p3__icon" "p3__contacto p3__icon";
-  grid-column-gap: 5%;
-  padding-left: 5%;
-}
-
-.p3__contacto {
-  grid-area: p3__contacto;
-}
-
-.animated__camera {
-  grid-area: p3__icon;
-  grid-area: p3__icon;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.Ingresatunombre, .Ingresatucorreo, .Dejanostuconsulta, .ObjetoConsulta {
-  width: 100%;
-  align-items: center;
-}
-
-.Dejanostuconsulta, .ObjetoConsulta {
-  padding: 5px;
-  margin: 5px;
 }
 
 .GrillaPortfolio {
@@ -523,6 +513,9 @@ input {
 }
 .GrillaPortfolio .Portfolio1:hover, .GrillaPortfolio .Portfolio2:hover, .GrillaPortfolio .Portfolio3:hover, .GrillaPortfolio .Portfolio4:hover, .GrillaPortfolio .Portfolio5:hover, .GrillaPortfolio .Portfolio6:hover, .GrillaPortfolio .Portfolio7:hover, .GrillaPortfolio .Portfolio8:hover {
   transform: scale(1.1);
+}
+.GrillaPortfolio .PortfolioFoto {
+  margin-left: 10%;
 }
 
 .GrillaServicios {
