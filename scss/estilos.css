@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 h2, .h2Contacto, .GrillaQuienesSomos .QuienesSomosTitulo .QuienesSomosH2 {
   font-family: "Glook";
@@ -339,11 +338,6 @@ i {
   100% {
     transform: translateY(1px);
   }
-}
-
-.PáginaContacto {
-  font-family: "Glook", serif;
-  font-size: 20px;
 }
 
 .MainContacto {
