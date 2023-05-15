@@ -201,6 +201,7 @@ i {
 .Encabezado .Menu__hamburguesa .navbar .navbar-nav .nav-item .nav-link {
   margin: 2px;
   color: black;
+  font-size: 10px;
 }
 
 .row__footer {
@@ -632,7 +633,7 @@ i {
   }
 }
 @media (max-width: 576px) {
-  .logoBruta {
+  .Encabezado .logoBruta {
     width: 30%;
   }
   .Encabezado .NavBar, .Encabezado .navbar {
@@ -702,6 +703,13 @@ i {
   .GrillaQuienesSomos .QuienesSomosp4 {
     margin-bottom: 20px;
   }
+  .MainContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .MainContacto .FormularioContacto {
+    width: 100%;
+  }
   .Footer {
     margin-top: 20px;
   }
@@ -725,7 +733,7 @@ i {
 }
 @media (max-width: 400px) {
   .logoBruta {
-    width: 40%;
+    width: 35%;
   }
   .container-fluid {
     padding-top: 5px;

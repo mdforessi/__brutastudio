@@ -99,11 +99,12 @@ margin-bottom: 6px;}
 
 @media (max-width: 576px) 
 {
-    .logoBruta 
-    {width: 30%;}
-
-
     .Encabezado {
+
+        .logoBruta
+        {width: 30%;}
+        
+        
     .NavBar , .navbar {
         font-size: 10px;
         margin-right: 20px;
@@ -195,6 +196,15 @@ margin-bottom: 6px;}
         {margin-bottom: 20px;}
     }
 
+
+    .MainContacto
+    {display: flex;
+    flex-direction: column;
+
+.FormularioContacto
+{width: 100%;}}
+
+
     .Footer
     {margin-top: 20px;
     
@@ -226,7 +236,7 @@ margin-bottom: 6px;}
 @media (max-width: 400px) 
 {
 .logoBruta
-{width: 40%;}
+{width: 35%;}
 
 .container-fluid
 {padding-top: 5px;}
