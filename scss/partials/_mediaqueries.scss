@@ -44,7 +44,7 @@ margin-bottom: 6px;}
     
     .NavBar {
         margin-right: 40px;
-            .li {
+            .menu_item {
             font-size: 10px;
             display: inline-block;
             border: 8px;
@@ -68,10 +68,19 @@ margin-bottom: 6px;}
     font-size: 16px;
 margin-bottom: 12px;}
 
-.BrutaEstiloLogo
+
+.Footer {
+
+    .FooterInfoContacto {
+        .BrutaEstiloLogo
 {padding-inline: 10px;
 padding-bottom: 10px;
 font-size: 22px;}
+}
+    }
+    
+
+
 
 .GrillaServicios
 {display: grid;

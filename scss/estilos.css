@@ -599,7 +599,7 @@ i {
   .Encabezado .NavBar {
     margin-right: 40px;
   }
-  .Encabezado .NavBar .li {
+  .Encabezado .NavBar .menu_item {
     font-size: 10px;
     display: inline-block;
     border: 8px;
@@ -617,7 +617,7 @@ i {
     font-size: 16px;
     margin-bottom: 12px;
   }
-  .BrutaEstiloLogo {
+  .Footer .FooterInfoContacto .BrutaEstiloLogo {
     padding-inline: 10px;
     padding-bottom: 10px;
     font-size: 22px;
