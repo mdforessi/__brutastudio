@@ -23,6 +23,7 @@
 ///////////////////////////////////////////*****************************************////////////////////////////////////
 
 
+
 @media (max-width: 768px) {    
     
     h2 {font-family: "Glook";
@@ -69,7 +70,7 @@ margin-bottom: 6px;}
 
 }
 
-.rowIndex
+.textIndex
 {
     .ParrafoIndex {
         font-size: 16px;
@@ -199,12 +200,16 @@ width: 100%;}
         
     }
 
-    .h2Index
-    {text-align: center;}
-    .ParrafoIndex {
-        font-size: 12px;
-    margin-bottom: 2px;
-    text-align:center;}
+    .textIndex {
+        .h2Index
+        {text-align: center;}
+        .ParrafoIndex {
+            font-size: 12px;
+        margin-bottom: 2px;
+        text-align:center;}
+
+    }
+   
 
 .GrillaContacto1 {
     .h2Contacto {
@@ -351,4 +356,5 @@ width: 100%;}
 {padding-top: 5px;}
 }
 
+ 
  
