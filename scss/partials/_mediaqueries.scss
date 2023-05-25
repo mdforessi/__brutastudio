@@ -138,14 +138,6 @@ flex-direction: column;
 }
 
 
-.FooterPortfolio
-{position: absolute;
-bottom: 0;
-width: 100%;}
-
-.FooterIndex
-{@extend .FooterPortfolio}
-
 }
 
 
@@ -203,6 +195,7 @@ width: 100%;}
     .textIndex {
         .h2Index
         {text-align: center;}
+
         .ParrafoIndex {
             font-size: 12px;
         margin-bottom: 2px;
@@ -328,6 +321,14 @@ width: 100%;}
 
     }
     
+    
+.FooterPortfolio
+{position: relative;
+bottom: 0;
+width: 100%;}
+
+.FooterIndex
+{@extend .FooterPortfolio}
 
     
         }
