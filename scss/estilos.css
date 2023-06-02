@@ -771,6 +771,9 @@ i {
     bottom: 0;
     width: 100%;
   }
+  .PaginaPortfolio {
+    height: 100vh;
+  }
 }
 @media (max-width: 400px) {
   .logoBruta {
